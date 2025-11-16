@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Audio - Lexique Météorologique</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .audio-test { margin: 10px 0; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+        .success { background-color: #d4edda; border-color: #c3e6cb; }
+        .error { background-color: #f8d7da; border-color: #f5c6cb; }
+        audio { width: 100%; margin-top: 5px; }
+        button { padding: 5px 10px; margin: 2px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🎵 Test des Fichiers Audio</h1>
+    <p>Cette page permet de tester la lecture de tous les fichiers audio.</p>
+    
+    <div id="audio-tests"></div>
+    
+    <script>
+        const audioFiles = [
+            "audio/abri-meteo_baoule.mp3",
+            "audio/abri-meteo_bete.mp3",
+            "audio/abri-meteo_fr.mp3",
+            "audio/abri-meteo_koulango.mp3",
+            "audio/abri-meteo_lobi.mp3",
+            "audio/abri-meteo_malinke.mp3",
+            "audio/abri-meteo_senoufo.mp3",
+            "audio/abri-meteo_yacouba.mp3",
+            "audio/accalmie_baoule.mp3",
+            "audio/accalmie_bete.mp3",
+            "audio/accalmie_fr.mp3",
+            "audio/accalmie_koulango.mp3",
+            "audio/accalmie_lobi.mp3",
+            "audio/accalmie_malinke.mp3",
+            "audio/accalmie_senoufo.mp3",
+            "audio/accalmie_yacouba.mp3",
+            "audio/adaptation_baoule.mp3",
+            "audio/adaptation_bete.mp3",
+            "audio/adaptation_fr.mp3",
+            "audio/adaptation_koulango.mp3",
+            "audio/adaptation_lobi.mp3",
+            "audio/adaptation_malinke.mp3",
+            "audio/adaptation_senoufo.mp3",
+            "audio/adaptation_yacouba.mp3",
+            "audio/aerosol_baoule.mp3",
+            "audio/aerosol_bete.mp3",
+            "audio/aerosol_fr.mp3",
+            "audio/aerosol_koulango.mp3",
+            "audio/aerosol_lobi.mp3",
+            "audio/aerosol_malinke.mp3",
+            "audio/aerosol_senoufo.mp3",
+            "audio/aerosol_yacouba.mp3",
+            "audio/altitude_baoule.mp3",
+            "audio/altitude_bete.mp3",
+            "audio/altitude_fr.mp3",
+            "audio/altitude_koulango.mp3",
+            "audio/altitude_lobi.mp3",
+            "audio/altitude_malinke.mp3",
+            "audio/altitude_senoufo.mp3",
+            "audio/altitude_yacouba.mp3",
+            "audio/barometre_baoule.mp3",
+            "audio/barometre_bete.mp3",
+            "audio/barometre_fr.mp3",
+            "audio/barometre_koulango.mp3",
+            "audio/barometre_lobi.mp3",
+            "audio/barometre_malinke.mp3",
+            "audio/barometre_senoufo.mp3",
+            "audio/barometre_yacouba.mp3",
+            "audio/brouillard_baoule.mp3",
+            "audio/brouillard_bete.mp3",
+            "audio/brouillard_fr.mp3",
+            "audio/brouillard_koulango.mp3",
+            "audio/brouillard_lobi.mp3",
+            "audio/brouillard_malinke.mp3",
+            "audio/brouillard_senoufo.mp3",
+            "audio/brouillard_yacouba.mp3",
+            "audio/climat_baoule.mp3",
+            "audio/climat_bete.mp3",
+            "audio/climat_fr.mp3",
+            "audio/climat_koulango.mp3",
+            "audio/climat_lobi.mp3",
+            "audio/climat_malinke.mp3",
+            "audio/climat_senoufo.mp3",
+            "audio/climat_yacouba.mp3",
+            "audio/cyclone_baoule.mp3",
+            "audio/cyclone_bete.mp3",
+            "audio/cyclone_fr.mp3",
+            "audio/cyclone_koulango.mp3",
+            "audio/cyclone_lobi.mp3",
+            "audio/cyclone_malinke.mp3",
+            "audio/cyclone_senoufo.mp3",
+            "audio/cyclone_yacouba.mp3",
+        ];
+        
+        const container = document.getElementById('audio-tests');
+        
+        audioFiles.forEach((audioFile, index) => {
+            if (!audioFile) return;
+            
+            const div = document.createElement('div');
+            div.className = 'audio-test';
+            
+            const title = document.createElement('h3');
+            title.textContent = `Test ${index + 1}: ${audioFile}`;
+            div.appendChild(title);
+            
+            const audio = document.createElement('audio');
+            audio.controls = true;
+            audio.preload = 'metadata';
+            audio.src = audioFile;
+            
+            const status = document.createElement('p');
+            status.textContent = 'Chargement...';
+            
+            audio.addEventListener('loadeddata', () => {
+                status.textContent = '✅ Fichier chargé avec succès';
+                status.style.color = 'green';
+                div.className += ' success';
+            });
+            
+            audio.addEventListener('error', (e) => {
+                const errorCode = e.target.error ? e.target.error.code : 'inconnu';
+                status.textContent = `❌ Erreur de chargement (code: ${errorCode})`;
+                status.style.color = 'red';
+                div.className += ' error';
+            });
+            
+            div.appendChild(audio);
+            div.appendChild(status);
+            container.appendChild(div);
+        });
+    </script>
+</body>
+</html>

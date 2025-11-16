@@ -126,6 +126,60 @@ TERMES_METEO = [
             "koulango": "kúlú yàlì",
             "yacouba": "kɔ̀ɔ́ yɛ̀"
         }
+    },
+    # Termes commençant par B
+    {
+        "terme_fr": "Baromètre",
+        "definition_fr": "Instrument qui mesure la pression de l'air",
+        "traductions": {
+            "baoule": "nsuo kɛsɛ kasɛ",
+            "bete": "gbègbè kpɛtɛ",
+            "lobi": "thiεεyεthabee",
+            "malinke": "kɔ̀n kálàbà",
+            "senoufo": "folo kɛlɛɛ",
+            "koulango": "fìrì bàrà",
+            "yacouba": "wɛ̀ɛ́ kálà"
+        }
+    },
+    {
+        "terme_fr": "Brouillard",
+        "definition_fr": "Nuage très bas qui réduit la visibilité",
+        "traductions": {
+            "baoule": "nsuo kɛsɛ",
+            "bete": "fùfù dɛ̀",
+            "lobi": "polinεbhãa",
+            "malinke": "kúmà fúlà",
+            "senoufo": "polo sɛnɛ",
+            "koulango": "pólò sálà",
+            "yacouba": "kúmà dɩ̀à"
+        }
+    },
+    # Termes commençant par C
+    {
+        "terme_fr": "Cyclone",
+        "definition_fr": "Tempête très forte qui tourne en rond",
+        "traductions": {
+            "baoule": "fifiε kɛsɛ",
+            "bete": "fìfì kpakpa",
+            "lobi": "thiεεbhãabee",
+            "malinke": "fɩ̀nfɩ̀n kélé",
+            "senoufo": "firifiri kɛɛ",
+            "koulango": "fírì kúlù",
+            "yacouba": "fɩ̀rɩ̀ kɔ̀"
+        }
+    },
+    {
+        "terme_fr": "Climat",
+        "definition_fr": "Le temps qu'il fait habituellement dans une région",
+        "traductions": {
+            "baoule": "sua kɛsɛ ni",
+            "bete": "gbè yɛlɛ",
+            "lobi": "thiεεyεεle",
+            "malinke": "kɔ̀n yélé",
+            "senoufo": "wagati yɛlɛ",
+            "koulango": "wàgà yàlì",
+            "yacouba": "wɛ̀ɛ́ yɛ̀lɛ̀"
+        }
     }
 ]
 

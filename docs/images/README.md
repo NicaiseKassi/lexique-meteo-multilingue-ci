@@ -14,8 +14,24 @@ Ce répertoire contient les images illustratives pour chaque terme météorologi
 - Photos personnelles de la SODEXAM
 
 ## Liste des images nécessaires
-- `abri-meteo.jpg` - Abri météo
+- `abri-meteorologique.jpg` - Abri météorologique
 - `accalmie.jpg` - Accalmie
 - `adaptation.jpg` - Adaptation
-- `aerosol.jpg` - Aérosol
 - `altitude.jpg` - Altitude
+- `anticyclone.jpg` - Anticyclone
+- `anemometre.jpg` - Anémomètre
+- `arc-en-ciel.jpg` - Arc-en-ciel
+- `aride.jpg` - Aride
+- `atmosphere.jpg` - Atmosphère
+- `aerosol.jpg` - Aérosol
+- `barometre.jpg` - Baromètre
+- `brouillard.jpg` - Brouillard
+- `climat.jpg` - Climat
+- `cyclone.jpg` - Cyclone
+- `humidite.jpg` - Humidité
+- `nuage.jpg` - Nuage
+- `pluie.jpg` - Pluie
+- `soleil.jpg` - Soleil
+- `secheresse.jpg` - Sécheresse
+- `temperature.jpg` - Température
+- `vent.jpg` - Vent

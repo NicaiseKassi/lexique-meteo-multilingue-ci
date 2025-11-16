@@ -1,20 +1,20 @@
-# Abri météo
+# Abri météorologique
 
 <div class="terme-header">
-    <h1 class="terme-title">Abri météo</h1>
+    <h1 class="terme-title">Abri météorologique</h1>
     <div class="translation-item">
-    <span class="translation-text">Abri météo</span>
-    <button class="audio-btn" data-audio="../audio/abri-meteo_fr.mp3" title="Écouter la prononciation">🔊</button>
+    <span class="translation-text">Abri météorologique</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteorologique_fr.mp3" title="Écouter la prononciation">🔊</button>
 </div>
 </div>
 
-![Abri météo](../images/abri-meteo.svg)
+![Abri météorologique](../images/abri-meteorologique.svg)
 { .terme-image }
 
 ## Définition (Français facile)
 
 <div class="terme-definition">
-Petite cage blanche contenant des instruments météo
+Terme météorologique en français
 </div>
 
 ## Traductions
@@ -24,50 +24,50 @@ Petite cage blanche contenant des instruments météo
         <div class="langue-group">
             <div class="language-label">Baoulé</div>
             <div class="translation-item">
-    <span class="translation-text">blɛ amanniɛn sua</span>
-    <button class="audio-btn" data-audio="../audio/abri-meteo_baoule.mp3" title="Écouter la prononciation">🔊</button>
+    <span class="translation-text">Nglo ji sunzunlɛ</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteorologique_baoule.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Bété</div>
             <div class="translation-item">
-    <span class="translation-text">ɔnun alaka</span>
-    <button class="audio-btn" data-audio="../audio/abri-meteo_bete.mp3" title="Écouter la prononciation">🔊</button>
+    <span class="translation-text">Ñ̀gbliposu tɛnyι</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteorologique_bete.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Lobi</div>
             <div class="translation-item">
-    <span class="translation-text">meteolinɛnιköbhänιde</span>
-    <button class="audio-btn" data-audio="../audio/abri-meteo_lobi.mp3" title="Écouter la prononciation">🔊</button>
+    <span class="translation-text">tʰá̰gbá bɔ́</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteorologique_lobi.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Malinké</div>
             <div class="translation-item">
-    <span class="translation-text">bɔ́hín tʰɩ̰́ tʰɩ̀ɩ̀n pár</span>
-    <button class="audio-btn" data-audio="../audio/abri-meteo_malinke.mp3" title="Écouter la prononciation">🔊</button>
+    <span class="translation-text">wagati ka ji</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteorologique_malinke.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Sénoufo</div>
             <div class="translation-item">
-    <span class="translation-text">wagati ɟateminanso</span>
-    <button class="audio-btn" data-audio="../audio/abri-meteo_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+    <span class="translation-text">lǎli su</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteorologique_senoufo.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Koulango</div>
             <div class="translation-item">
-    <span class="translation-text">Kpapilé nì be lǎli kama yabàra</span>
-    <button class="audio-btn" data-audio="../audio/abri-meteo_koulango.mp3" title="Écouter la prononciation">🔊</button>
+    <span class="translation-text">dúɡù tɛ́m zɩ́kpàa lɛ̰̀</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteorologique_koulango.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Yacouba</div>
             <div class="translation-item">
-    <span class="translation-text">cɛ́ɛ lè tɛ́m ɡɷ̰ ́ɷ̰ ̀ mɩ̰́rɩ́ɡɔ̀ ɡbúkò</span>
-    <button class="audio-btn" data-audio="../audio/abri-meteo_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+    <span class="translation-text">Tʌ̰̋ŋ̰̋-yààŋ-nàà</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteorologique_yacouba.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
     </div>
@@ -85,8 +85,8 @@ Petite cage blanche contenant des instruments météo
 <div class="language-badge">Français</div>
 <div class="language-badge">Baoulé</div>
 <div class="language-badge">Bété</div>
+<div class="language-badge">Koulango</div>
 <div class="language-badge">Lobi</div>
 <div class="language-badge">Malinké</div>
 <div class="language-badge">Sénoufo</div>
-<div class="language-badge">Koulango</div>
 <div class="language-badge">Yacouba</div>

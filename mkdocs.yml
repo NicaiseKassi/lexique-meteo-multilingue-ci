@@ -46,16 +46,43 @@ plugins:
   - search:
       lang: fr
 
+# Configuration des types de fichiers
+use_directory_urls: true
+
 # Navigation du site
 nav:
   - Accueil: index.md
   - Termes météorologiques:
     - A:
-      - Abri météo: termes/abri-meteo.md
+      - Abri météorologique: termes/abri-meteorologique.md
       - Accalmie: termes/accalmie.md
       - Adaptation: termes/adaptation.md
       - Altitude: termes/altitude.md
+      - Anticyclone: termes/anticyclone.md
+      - Anémomètre: termes/anemometre.md
+      - Arc-en-ciel: termes/arc-en-ciel.md
+      - Aride: termes/aride.md
+      - Atmosphère: termes/atmosphere.md
       - Aérosol: termes/aerosol.md
+    - B:
+      - Baromètre: termes/barometre.md
+      - Brouillard: termes/brouillard.md
+    - C:
+      - Climat: termes/climat.md
+      - Cyclone: termes/cyclone.md
+    - H:
+      - Humidité: termes/humidite.md
+    - N:
+      - Nuage: termes/nuage.md
+    - P:
+      - Pluie: termes/pluie.md
+    - S:
+      - Soleil: termes/soleil.md
+      - Sécheresse: termes/secheresse.md
+    - T:
+      - Température: termes/temperature.md
+    - V:
+      - Vent: termes/vent.md
 # Informations supplémentaires
 extra:
   social:

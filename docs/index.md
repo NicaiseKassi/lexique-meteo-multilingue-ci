@@ -1,6 +1,12 @@
 # Lexique Météorologique Multilingue
 
 <div class="terme-header">
+    <div style="text-align: center; margin-bottom: 2rem;">
+        <img src="images/Embleme.png" alt="Emblème Côte d'Ivoire" style="height: 80px; margin: 0 15px;">
+        <img src="images/Logo_Sodexam.png" alt="Logo SODEXAM" style="height: 80px; margin: 0 15px;">
+        <img src="images/Logo_PNUE.png" alt="Logo PNUE" style="height: 80px; margin: 0 15px;">
+        <img src="images/Logo_UE.png" alt="Logo Union Européenne" style="height: 80px; margin: 0 15px;">
+    </div>
     <h1 class="terme-title">🌤️ Lexique Météorologique Multilingue</h1>
     <p style="font-size: 1.2em; color: #757575; margin: 0;">
         Dictionnaire de terminologie météorologique en 8 langues de Côte d'Ivoire
@@ -13,7 +19,7 @@ Bienvenue dans le **Lexique Météorologique Multilingue** de la Côte d'Ivoire 
 
 ### 🎯 Objectifs
 
-Ce lexique vise à :
+Ce lexique, financé par le **PNUE** (Programme des Nations Unies pour l'Environnement) et l'**Union Européenne**, vise à :
 
 - **Démocratiser** l'accès aux informations météorologiques dans les langues locales
 - **Faciliter** la communication météorologique avec les communautés rurales
@@ -142,19 +148,24 @@ Ce lexique a été élaboré grâce à la collaboration de :
 ## 🤝 Partenaires et soutiens
 
 <div class="traductions-grid">
-    <div class="langue-group">
+    <div class="langue-group" style="text-align: center;">
+        <img src="images/Logo_Sodexam.png" alt="SODEXAM" style="height: 60px; margin-bottom: 10px;">
         <div class="language-label">🏢 SODEXAM</div>
         <p>Société d'Exploitation et de Développement Aéroportuaire, Aéronautique et Météorologique de Côte d'Ivoire</p>
+        <img src="images/ISO9001.PNG" alt="ISO 9001" style="height: 40px; margin-top: 10px;">
     </div>
-    <div class="langue-group">
+    <div class="langue-group" style="text-align: center;">
+        <img src="images/Logo_PNUE.png" alt="PNUE" style="height: 60px; margin-bottom: 10px;">
         <div class="language-label">🌍 PNUE</div>
         <p>Programme des Nations Unies pour l'Environnement</p>
     </div>
-    <div class="langue-group">
+    <div class="langue-group" style="text-align: center;">
+        <img src="images/Logo_UE.png" alt="Union Européenne" style="height: 60px; margin-bottom: 10px;">
         <div class="language-label">🇪🇺 Union Européenne</div>
         <p>Soutien financier et technique</p>
     </div>
-    <div class="langue-group">
+    <div class="langue-group" style="text-align: center;">
+        <img src="images/Embleme.png" alt="Côte d'Ivoire" style="height: 60px; margin-bottom: 10px;">
         <div class="language-label">👥 Communautés locales</div>
         <p>Contribution linguistique et validation culturelle</p>
     </div>
@@ -172,18 +183,12 @@ Ce lexique a été élaboré grâce à la collaboration de :
 
 ## 🚀 Développements futurs
 
-### Phase 2 (2025)
+### Phase 2 (2026)
 
 - Extension à d'autres langues ivoiriennes (Dioula, Agni, Abbey)
 - Développement d'une application mobile
 - Intégration avec les systèmes d'alerte SMS
 - Formation des agents météorologiques régionaux
-
-### Phase 3 (2026)
-
-- Expansion vers d'autres pays d'Afrique de l'Ouest
-- Outils pédagogiques pour les écoles
-- Plateforme collaborative pour les mises à jour
 - Intégration avec les radios communautaires
 
 ## 📞 Contact et feedback
@@ -193,7 +198,7 @@ Nous valorisons vos retours pour améliorer continuellement ce lexique !
 ### 📧 Contacts
 
 - **SODEXAM** : contact@sodexam.ci
-- **Équipe technique** : lexique@sodexam.ci
+- **Équipe technique** : decam@sodexam.ci (Département de la Climatologie et des Applications Météorologiques)
 - **Support** : support@lexique-meteo.ci
 
 ### 💬 Comment contribuer

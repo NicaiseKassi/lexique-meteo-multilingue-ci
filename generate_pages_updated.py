@@ -15,7 +15,7 @@ Date: Novembre 2024
 import os
 import re
 from typing import Dict, List, Tuple
-from generate_audio import TERMES_METEO, slugify  # Importer les données et fonctions communes
+from generate_audio_updated import TERMES_METEO, slugify  # Importer les données et fonctions communes
 
 def create_audio_button(slug: str, lang: str, text: str) -> str:
     """
@@ -46,9 +46,9 @@ def create_terme_page(terme_data: Dict, index: int, total: int) -> str:
     Returns:
         str: Contenu Markdown de la page
     """
-    terme_fr = terme_data["terme_fr"]
-    definition_fr = terme_data["definition_fr"]
-    traductions = terme_data["traductions"]
+    terme_fr = terme_data["fr"]
+    definition_fr = "Terme météorologique en français"
+    # Les traductions sont directement dans terme_data
     slug = slugify(terme_fr)
     
     # Génération de la navigation précédent/suivant
@@ -60,14 +60,14 @@ def create_terme_page(terme_data: Dict, index: int, total: int) -> str:
     # Lien précédent
     if index > 0:
         prev_terme = TERMES_METEO[index - 1]
-        prev_slug = slugify(prev_terme["terme_fr"])
-        navigation_links.append(f'[◄ {prev_terme["terme_fr"]}]({prev_slug}.md)')
+        prev_slug = slugify(prev_terme["fr"])
+        navigation_links.append(f'[◄ {prev_terme["fr"]}]({prev_slug}.md)')
     
     # Lien suivant
     if index < total - 1:
         next_terme = TERMES_METEO[index + 1]
-        next_slug = slugify(next_terme["terme_fr"])
-        navigation_links.append(f'[{next_terme["terme_fr"]} ►]({next_slug}.md)')
+        next_slug = slugify(next_terme["fr"])
+        navigation_links.append(f'[{next_terme["fr"]} ►]({next_slug}.md)')
     
     # Configuration des langues pour l'affichage
     langues_display = {
@@ -105,8 +105,8 @@ def create_terme_page(terme_data: Dict, index: int, total: int) -> str:
 
     # Ajouter chaque traduction avec son bouton audio
     for lang_code, lang_display in langues_display.items():
-        if lang_code in traductions:
-            traduction = traductions[lang_code]
+        if lang_code in terme_data:
+            traduction = terme_data[lang_code]
             content += f"""        <div class="langue-group">
             <div class="language-label">{lang_display}</div>
             {create_audio_button(slug, lang_code, traduction)}
@@ -131,8 +131,9 @@ def create_terme_page(terme_data: Dict, index: int, total: int) -> str:
 """
     
     # Ajouter les badges de langues disponibles
-    for lang_code in traductions.keys():
-        lang_display = langues_display.get(lang_code, lang_code.title())
+    for lang_code in ['baoule', 'bete', 'koulango', 'lobi', 'malinke', 'senoufo', 'yacouba']:
+        if lang_code in terme_data:
+            lang_display = langues_display.get(lang_code, lang_code.title())
         content += f'<div class="language-badge">{lang_display}</div>\n'
     
     return content
@@ -154,7 +155,7 @@ def generate_all_pages() -> None:
     erreurs = 0
     
     for i, terme_data in enumerate(TERMES_METEO):
-        terme_fr = terme_data["terme_fr"]
+        terme_fr = terme_data["fr"]
         slug = slugify(terme_fr)
         
         try:
@@ -197,7 +198,7 @@ def generate_navigation_config() -> str:
     # Grouper les termes par première lettre
     groupes = {}
     for terme_data in TERMES_METEO:
-        terme_fr = terme_data["terme_fr"]
+        terme_fr = terme_data["fr"]
         slug = slugify(terme_fr)
         premiere_lettre = terme_fr[0].upper()
         
@@ -288,7 +289,7 @@ Ce répertoire contient les images illustratives pour chaque terme météorologi
 """
     
     for terme_data in TERMES_METEO:
-        terme_fr = terme_data["terme_fr"]
+        terme_fr = terme_data["fr"]
         slug = slugify(terme_fr)
         readme_content += f"- `{slug}.jpg` - {terme_fr}\n"
     

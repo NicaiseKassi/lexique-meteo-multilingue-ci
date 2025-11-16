@@ -1,0 +1,233 @@
+[
+  {
+    "fr": "Abri météorologique",
+    "baoule": "Nglo ji sunzunlɛ",
+    "bete": "Ñ̀gbliposu tɛnyι",
+    "koulango": "dúɡù tɛ́m zɩ́kpàa lɛ̰̀",
+    "lobi": "tʰá̰gbá bɔ́",
+    "malinke": "wagati ka ji",
+    "senoufo": "lǎli su",
+    "yacouba": "Tʌ̰̋ŋ̰̋-yààŋ-nàà",
+    "id": "abri-meteorologique"
+  },
+  {
+    "fr": "Accalmie",
+    "baoule": "Angban sansiɛ",
+    "bete": "Nyͻmι klolai",
+    "koulango": "ɟéwò pɩ̰̀r sɩ̰̀",
+    "lobi": "ɟɛ̀ dɛ̀wɛ̀",
+    "malinke": "fɔnyɔn saniya",
+    "senoufo": "kafá laɡi",
+    "yacouba": "tḛ̋ḛ̋-pɪ̰̋",
+    "id": "accalmie"
+  },
+  {
+    "fr": "Adaptation",
+    "baoule": "Akwan bonunlɛ",
+    "bete": "Àwɛnsɛnͻ",
+    "koulango": "sɔ́ɔ́r tákɷ́",
+    "lobi": "gbɛ̀nì",
+    "malinke": "ladɔnniya",
+    "senoufo": "kanǎn",
+    "yacouba": "kàà-sɤ̄-ɓà",
+    "id": "adaptation"
+  },
+  {
+    "fr": "Altitude",
+    "baoule": "Nglo sunzunlɛ",
+    "bete": "Nǫ̈gbliɛ",
+    "koulango": "hálààr kɷ̰̀",
+    "lobi": "dò̰ɔ̀r kᵒò",
+    "malinke": "kundama ka bɔ kɔgɔji hakεja la",
+    "senoufo": "lɔgi tɔnɔnɡama",
+    "yacouba": "nū-kàà-sɤ́",
+    "id": "altitude"
+  },
+  {
+    "fr": "Anticyclone",
+    "baoule": "Blɛ kpa",
+    "bete": "Gïnyklʋylιpözɛgbälιbhιyenιde",
+    "koulango": "jɔ́kɔ̰̀ ɟóflúlémjò dakɔ̰̀",
+    "lobi": "pá ʔwé dàwɛ̀",
+    "malinke": "wagatibasiginin jɔrɔ",
+    "senoufo": "larijánna",
+    "yacouba": "tḛ̋ḛ̋-kʌ̄gbɪ̰̋-sɯ̏",
+    "id": "anticyclone"
+  },
+  {
+    "fr": "Anémomètre",
+    "baoule": "Angban toe",
+    "bete": "Nyͻmιpiopionͻyakana",
+    "koulango": "ɟéwò bɩ́ɩ́kà zɷ́ŋɔ̰̀",
+    "lobi": "ɟɛ̀ mɩ́ɛ́dàà",
+    "malinke": "fɔnyɔn telija sumamina",
+    "senoufo": "kafálaɡi tumɛ̀nɛ́ yaga",
+    "yacouba": "tḛ̋ḛ̋-da-ká-pʌ́",
+    "id": "anemometre"
+  },
+  {
+    "fr": "Arc-en-ciel",
+    "baoule": "Nyangoduin",
+    "bete": "Lagͻlöbhäbhili",
+    "koulango": "ɡláɡlàɡlóɡlò",
+    "lobi": "tʰá̰gbákʰàbìr",
+    "malinke": "ala ja muru",
+    "senoufo": "nyԑn bariwi",
+    "yacouba": "ɗáŋ́-tȁ-pȍȍ",
+    "id": "arc-en-ciel"
+  },
+  {
+    "fr": "Aride",
+    "baoule": "Kee",
+    "bete": "Sιɛka",
+    "koulango": "hɩ́lɛ̰̀",
+    "lobi": "kʰɩ̀ɩ̀",
+    "malinke": "ɟalan",
+    "senoufo": "nwáà",
+    "yacouba": "gbla̰̋a̰̋gblàà",
+    "id": "aride"
+  },
+  {
+    "fr": "Atmosphère",
+    "baoule": "Angban kpa",
+    "bete": "Zlιmönyͻmʋkwë",
+    "koulango": "jééɡòmɩ́là ɲɩ́ŋmɔ̰̀",
+    "lobi": "ɟɩ̀ɛ̀",
+    "malinke": "dugukolo laminili gazi",
+    "senoufo": "tԑgi kama",
+    "yacouba": "nű-ɤ́kpá-kō-tā",
+    "id": "atmosphere"
+  },
+  {
+    "fr": "Aérosol",
+    "baoule": "Nglo sunzun titiɛ",
+    "bete": "Zlιgbäbä",
+    "koulango": "kásà kprɩ́kprɩ̰̀",
+    "lobi": "ɟɩ̀ɛ̀ pɔ̀rì",
+    "malinke": "fɔnyɔn kɔnɔ finman",
+    "senoufo": "kafá kama bɔlɔge",
+    "yacouba": "tḛ̋ḛ̋-pɪ̰̋-ɓāā",
+    "id": "aerosol"
+  },
+  {
+    "fr": "Baromètre",
+    "baoule": "Sunzun sumanlɛ",
+    "bete": "Sιɛkapιopιonͻyakana",
+    "koulango": "bɔ́ɔ́ŋɔ̰̀ bɩ́ɩ́kà zɷ́ŋɔ̰̀",
+    "lobi": "pá bɩ́ɛ́dàà",
+    "malinke": "nakɔ sumamina",
+    "senoufo": "tum barometiri",
+    "yacouba": "pá-ká-pʌ́",
+    "id": "barometre"
+  },
+  {
+    "fr": "Brouillard",
+    "baoule": "Nyibuolɛ",
+    "bete": "Gblógblógblí",
+    "koulango": "ɲɩ́ɩ́ŋmɔ̰̀ wūrū",
+    "lobi": "ɟɔ̰̀lɔ̰̀pà ɓírə́",
+    "malinke": "sumaya",
+    "senoufo": "súmaya",
+    "yacouba": "ɓū-tíí",
+    "id": "brouillard"
+  },
+  {
+    "fr": "Climat",
+    "baoule": "Blɛ kɛlɛ",
+    "bete": "Tɛmö",
+    "koulango": "dúɡù tɛ́m",
+    "lobi": "bɔ́ kʰɛ̀rɛ̀",
+    "malinke": "wagati",
+    "senoufo": "lǎli",
+    "yacouba": "Tʌ̰̋ŋ̰̋",
+    "id": "climat"
+  },
+  {
+    "fr": "Cyclone",
+    "baoule": "Angban tritrilɛ",
+    "bete": "Nyͻmι kädɛgbä",
+    "koulango": "ɟéwò kprɩ́kprɩ̰̀ ɡò",
+    "lobi": "ɟɛ̀ gbɛ̀là",
+    "malinke": "fɔnyɔn belebele",
+    "senoufo": "kafá gbɔ́ɔ̀ŋɔ",
+    "yacouba": "tḛ̋ḛ̋-kprɛ̰̋",
+    "id": "cyclone"
+  },
+  {
+    "fr": "Humidité",
+    "baoule": "Nzue nɛnɛlɛ",
+    "bete": "Nyizιmöklólólό",
+    "koulango": "mɩ́ɩ̰̀ wūrū sɩ̰̀",
+    "lobi": "ɲɷ̀ɔ̀n pɔ̀rì",
+    "malinke": "jinunuma",
+    "senoufo": "zéʔe kóló",
+    "yacouba": "ɗájḭ̋-kō",
+    "id": "humidite"
+  },
+  {
+    "fr": "Nuage",
+    "baoule": "Nyanmien",
+    "bete": "Ylimönyuzl",
+    "koulango": "jɔ́kɔ̰̀",
+    "lobi": "tʰá̰gbá",
+    "malinke": "kabanɔgɔ",
+    "senoufo": "fafaán",
+    "yacouba": "ɗűű",
+    "id": "nuage"
+  },
+  {
+    "fr": "Pluie",
+    "baoule": "Nzue",
+    "bete": "Nyizi",
+    "koulango": "mɩ́ɩ̰̀",
+    "lobi": "ɲɷ̀ɔ̀n",
+    "malinke": "ji",
+    "senoufo": "zéʔe",
+    "yacouba": "ɗájḭ̋",
+    "id": "pluie"
+  },
+  {
+    "fr": "Soleil",
+    "baoule": "Awia",
+    "bete": "Cie",
+    "koulango": "ɡbrékò",
+    "lobi": "wìr",
+    "malinke": "tile",
+    "senoufo": "tchang",
+    "yacouba": "jʌ́",
+    "id": "soleil"
+  },
+  {
+    "fr": "Sécheresse",
+    "baoule": "Ketelɛ",
+    "bete": "Sιɛkagbä",
+    "koulango": "hɩ́lɛ́ɡɛ̰̀",
+    "lobi": "kʰéwé",
+    "malinke": "jaalan",
+    "senoufo": "wama tɛʔɛ",
+    "yacouba": "ɗá-ja̰̋a̰̋-ba-ɗɛ̄ɛ̄-ɓà",
+    "id": "secheresse"
+  },
+  {
+    "fr": "Température",
+    "baoule": "Blɛ fanu",
+    "bete": "Tɛmιka",
+    "koulango": "bén bà̰ lɔ́m",
+    "lobi": "pá ʔwii",
+    "malinke": "kalaje",
+    "senoufo": "lǎli kama",
+    "yacouba": "tʌ̰̋ŋ̰̋-kʌ̄sɯ̄",
+    "id": "temperature"
+  },
+  {
+    "fr": "Vent",
+    "baoule": "Angban",
+    "bete": "Nyͻmι",
+    "koulango": "ɟéwò",
+    "lobi": "ɟɛ̀",
+    "malinke": "fɔnyɔn",
+    "senoufo": "kafá",
+    "yacouba": "tḛ̋ḛ̋",
+    "id": "vent"
+  }
+]

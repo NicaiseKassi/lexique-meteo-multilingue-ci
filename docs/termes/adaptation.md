@@ -8,13 +8,13 @@
 </div>
 </div>
 
-![Adaptation](../images/adaptation.jpg)
+![Adaptation](../images/adaptation.svg)
 { .terme-image }
 
 ## Définition (Français facile)
 
 <div class="terme-definition">
-Ajustement aux changements climatiques
+Terme météorologique en français
 </div>
 
 ## Traductions
@@ -24,49 +24,49 @@ Ajustement aux changements climatiques
         <div class="langue-group">
             <div class="language-label">Baoulé</div>
             <div class="translation-item">
-    <span class="translation-text">mi tɛ kpokpo</span>
+    <span class="translation-text">Akwan bonunlɛ</span>
     <button class="audio-btn" data-audio="../audio/adaptation_baoule.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Bété</div>
             <div class="translation-item">
-    <span class="translation-text">yíyɛ̀ gbɛ́ɛ̀</span>
+    <span class="translation-text">Àwɛnsɛnͻ</span>
     <button class="audio-btn" data-audio="../audio/adaptation_bete.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Lobi</div>
             <div class="translation-item">
-    <span class="translation-text">daabiitine</span>
+    <span class="translation-text">gbɛ̀nì</span>
     <button class="audio-btn" data-audio="../audio/adaptation_lobi.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Malinké</div>
             <div class="translation-item">
-    <span class="translation-text">làmɩ̀n tʰɩ́ɩ̀</span>
+    <span class="translation-text">ladɔnniya</span>
     <button class="audio-btn" data-audio="../audio/adaptation_malinke.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Sénoufo</div>
             <div class="translation-item">
-    <span class="translation-text">ɲɛlɛɛ kɛɛ</span>
+    <span class="translation-text">kanǎn</span>
     <button class="audio-btn" data-audio="../audio/adaptation_senoufo.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Koulango</div>
             <div class="translation-item">
-    <span class="translation-text">fálì bàrà</span>
+    <span class="translation-text">sɔ́ɔ́r tákɷ́</span>
     <button class="audio-btn" data-audio="../audio/adaptation_koulango.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
         <div class="langue-group">
             <div class="language-label">Yacouba</div>
             <div class="translation-item">
-    <span class="translation-text">dɩ́à ɓɛ́</span>
+    <span class="translation-text">kàà-sɤ̄-ɓà</span>
     <button class="audio-btn" data-audio="../audio/adaptation_yacouba.mp3" title="Écouter la prononciation">🔊</button>
 </div>
         </div>
@@ -76,7 +76,7 @@ Ajustement aux changements climatiques
 ---
 
 <div class="terme-navigation">
-[🏠 Retour à l'accueil](../index.md) | [◄ Accalmie](accalmie.md) | [Aérosol ►](aerosol.md)
+[🏠 Retour à l'accueil](../index.md) | [◄ Accalmie](accalmie.md) | [Altitude ►](altitude.md)
 </div>
 
 !!! info "À propos de ce terme"
@@ -85,8 +85,8 @@ Ajustement aux changements climatiques
 <div class="language-badge">Français</div>
 <div class="language-badge">Baoulé</div>
 <div class="language-badge">Bété</div>
+<div class="language-badge">Koulango</div>
 <div class="language-badge">Lobi</div>
 <div class="language-badge">Malinké</div>
 <div class="language-badge">Sénoufo</div>
-<div class="language-badge">Koulango</div>
 <div class="language-badge">Yacouba</div>

@@ -138,12 +138,46 @@ async function playAudio(src, button) {
         // Désactiver le bouton pendant le chargement
         setButtonState(button, 'loading');
         
-        // Créer l'élément audio
+        // Créer l'élément audio avec gestion intelligente des chemins
         const audio = new Audio();
-        audio.src = src;
+        
+        // Analyser l'URL actuelle pour déterminer le bon chemin
+        const currentPath = window.location.pathname;
+        const isTermePage = currentPath.includes('/termes/');
+        const isHomePage = currentPath === '/' || currentPath.endsWith('/');
+        
+        let audioUrl;
+        
+        if (isTermePage) {
+            // Sur une page de terme, remonter d'un niveau pour accéder aux audios
+            audioUrl = src.startsWith('../') ? src : '../' + src;
+        } else {
+            // Sur la page d'accueil ou autre, chemin direct
+            audioUrl = src.replace('../', '');
+        }
+        
+        // Si l'URL ne commence pas par 'audio/', l'ajouter
+        if (!audioUrl.includes('audio/') && !audioUrl.startsWith('../audio/')) {
+            const fileName = audioUrl.split('/').pop();
+            audioUrl = isTermePage ? '../audio/' + fileName : 'audio/' + fileName;
+        }
+        
+        console.log('� Lecture audio:', {
+            source: src,
+            currentPath: currentPath,
+            isTermePage: isTermePage,
+            finalUrl: audioUrl,
+            baseUrl: window.location.origin
+        });
+        
+        audio.src = audioUrl;
         audio.volume = AUDIO_CONFIG.volume;
         audio.playbackRate = AUDIO_CONFIG.playbackRate;
-        audio.preload = AUDIO_CONFIG.preloadStrategy;
+        audio.preload = 'metadata';
+        
+        // Configuration MIME explicite
+        audio.setAttribute('type', 'audio/mpeg');
+        audio.crossOrigin = 'anonymous';
         
         // Stocker les références globales
         currentAudio = audio;
@@ -166,9 +200,29 @@ async function playAudio(src, button) {
         });
         
         audio.addEventListener('error', (event) => {
-            console.error(`❌ Erreur audio: ${src}`, event);
+            console.error(`❌ Erreur audio: ${audioUrl}`, event);
+            const error = event.target.error;
+            let errorMessage = 'Erreur de lecture audio';
+            
+            if (error) {
+                switch (error.code) {
+                    case error.MEDIA_ERR_ABORTED:
+                        errorMessage = 'Lecture audio interrompue';
+                        break;
+                    case error.MEDIA_ERR_NETWORK:
+                        errorMessage = 'Erreur réseau - vérifiez votre connexion';
+                        break;
+                    case error.MEDIA_ERR_DECODE:
+                        errorMessage = 'Format audio non supporté par votre navigateur';
+                        break;
+                    case error.MEDIA_ERR_SRC_NOT_SUPPORTED:
+                        errorMessage = 'Fichier audio non trouvé ou format non supporté';
+                        break;
+                }
+            }
+            
             setButtonState(button, 'error');
-            showErrorMessage(`Impossible de lire le fichier audio: ${src}`);
+            showErrorMessage(errorMessage);
             cleanupAudio();
         });
         
@@ -347,6 +401,35 @@ function detectAudioCapabilities() {
 }
 
 /**
+ * Teste la lecture d'un fichier audio pour diagnostiquer les problèmes
+ */
+function testAudioPlayback() {
+    const testUrl = 'audio/abri-meteo_fr.mp3';
+    const baseUrl = window.location.origin + window.location.pathname.replace(/[^\/]*$/, '');
+    const fullUrl = baseUrl + testUrl;
+    
+    console.log('🧪 Test audio:', fullUrl);
+    
+    const audio = new Audio();
+    audio.src = fullUrl;
+    
+    audio.addEventListener('loadeddata', () => {
+        console.log('✅ Fichier audio chargé avec succès');
+    });
+    
+    audio.addEventListener('error', (e) => {
+        console.error('❌ Erreur de test audio:', e);
+    });
+    
+    return audio.play().then(() => {
+        console.log('✅ Lecture audio réussie');
+        audio.pause();
+    }).catch(err => {
+        console.error('❌ Échec lecture audio:', err);
+    });
+}
+
+/**
  * Fonction d'initialisation appelée au chargement
  */
 (function() {
@@ -358,12 +441,16 @@ function detectAudioCapabilities() {
     // Initialiser le système
     initAudioSystem();
     
+    // Test automatique après 2 secondes
+    setTimeout(testAudioPlayback, 2000);
+    
     // Exposer des fonctions utiles globalement (pour debug)
     if (typeof window !== 'undefined') {
         window.lexiqueAudio = {
             playAudio,
             stopCurrentAudio,
-            setupAudioButtons
+            setupAudioButtons,
+            testAudioPlayback
         };
     }
 })();

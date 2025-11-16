@@ -1,0 +1,263 @@
+# RAPPORT D'EXTRACTION DES TERMES MÉTÉOROLOGIQUES
+============================================================
+
+## RÉSUMÉ
+- Fichiers PDF traités: 8
+- Termes extraits au total: 1518
+- Termes français uniques: 175
+- Termes avec traductions multiples: 175
+
+## LANGUES TRAITÉES
+- Baoule: 163 termes (Baoulé Glossaire météo.pdf)
+- Malinke: 169 termes (Malinké Glossaire météo.pdf)
+- Lobi: 164 termes (Lobi Glossaire météo.pdf)
+- Koulango: 164 termes (Koulango Glossaire météo.pdf)
+- Senoufo: 166 termes (Sénoufo Glossaire météo.pdf)
+- Bete: 167 termes (Bété Glossaire météo.pdf)
+- Yacouba: 164 termes (Yacouba Glossaire météo.pdf)
+
+## EXEMPLES DE TERMES EXTRAITS
+1. Activité Qui Produit  Des Ri
+   - baoule: chesses ou des  services (qui
+   - bete: chesses ou des  services (qui
+   - koulango: chesses ou des  services (qui
+2. Adaptation À Ba Se Com
+   - baoule: munautaire  Approche  qui place les com-
+   - bete: munautaire  Approche qui place les com-
+   - koulango: munautaire  Approche qui place les com-
+3. Altitude
+   - baoule: Hauteur par rapport  au niveau 
+de la mer   Nglo sunzunl ɛ 
+Altostratus  Nuage moyen, gris, qui peut 
+apporter de la pluie.  Nyanmien mlanl ɛ sɛsɛ 
+Amas nuageux  Gros nuage (nuage de  grande 
+envergure)  Nyanmiɛn mlanlɛ tritri  
+Amplitude thermique  Différence entre la tempéra-
+ture maximale et minimale sur 
+une période.  Blɛ fanufanu  
+Anémomètre  Instrument qui permet de me-
+surer la vitesse du vent  Angban toe/  
+Sunzun angban  
+Animateur  Animateur,  présentateur   
+(d'une émission)  Amanniɛn bofuɛ/ ijɔfuɛ / 
+ndɛkanfuɛ 
+Annuel  Par an  Afuɛ nuan  
+Anomalie  Différence par  rapport à la nor-
+male (la moyenne sur 30  ans)  Tɛ / fɔ 
+Anomalie climatique  Écart par rapport aux condi-
+tions climatiques normales  Afɔ blɛ 
+Anticyclone  Zone de haute pression, sou-
+vent synonyme de beau temps  Blɛ kpa/ blɛ fɔun/ blɛ kla-
+man  
+Anticyclone dynamique  Anticyclone qui se déplace 
+avec des vents changeants.  Akaci angban bl ɛ  
+Août  Août, 8e mois  Afɔliɛ 
+Apport en eau  Quantité d'eau reçue dans une 
+région.  Nzue tɔlɛ nuan  
+Après  Après  Sin 
+Après-midi  Après-midi  Wia jran su sin  
+Arc en ciel  Arc-en-ciel  Nyangoduin  
+Archives  Anciens documents  de sauve-
+garde de données  Fluwa su yal ɛ /  
+Fa sie  
+Aride  Sec  Kee  
+Aridité  Zone caractérisée par une 
+faible pluviométrie ou sèche-
+resse  Ketelɛ 
+Arpège  Modèle de prévision  météo de 
+la France  Abloci bl ɛ wafa  
+Association  Regroupement  Annyia/ anuanz ɛ 
+Associer  Regrouper, assembler  Kan bonun/ kpandan  
+Astres  Etoiles du ciel  Nzrama  
+Atmosphère  Couche de gaz qui  entoure la 
+terre  Angban kpa  
+Atténuation  Actions humaines qui visent à 
+réduire les émissions de gaz à 
+effet de serre, par exemple, en 
+éliminant la combustion de 
+combustibles fossiles.  Ase kanl ɛ/ 
+Nuan jɔlɛ 
+Autorité  Dirigeant, décideur  Siefuɛ 
+Autorités  coutumières  Chefs coutumiers  klɔ kpɛngbɛn mun  
+Autorités  politiques  Dirigeants,  gouvernants  Awafuɛ mun
+4. Altostratus
+   - bete: Nuage moyen, gris, qui peut 
+apporter de la pluie.  ylimönyuzl ιpιpɛ 
+Amas nuageux  Gros nuage (nuage de  grande 
+envergure)  Ylimönyuzl ιkädɛ 
+Amplitude thermique  Différence entre la tempéra-
+ture maximale et minimale sur 
+une période.  aplituɩ tεmikʊ 
+Anémomètre  Instrument qui permet de me-
+surer la vitesse du vent  Nyͻmιpiopionͻyakana  
+Animateur  Animateur,  présentateur   
+(d'une émission)  Wɛlιsunyͻ 
+Annuel  Par an  ylιbamö  
+Anomalie  Différence par  rapport à la nor-
+male (la moyenne sur 30  ans)  Nyinyloli  
+Anomalie climatique  Écart par rapport aux condi-
+tions climatiques normales  Tɛmönyinyloli  
+Anticyclone  Zone de haute pression, sou-
+vent synonyme de beau temps  Gïnye-
+klʋylιpözɛgbälιbhιyenιde 
+Anticyclone dynamique  Anticyclone qui se déplace 
+avec des vents changeants.  Gïnye-
+klʋylιpözɛgbälιbhιyenιde ce  
+Août  Août, 8e mois  Gbʋͻtanacʋ 
+Apport en eau  Quantité d'eau reçue dans une 
+région.  Bhlιpιͻmö löbhälöbhänyu  
+Après  Après  Bhla  
+Après-midi  Après-midi  Cidosɛ 
+Arc en ciel  Arc-en-ciel  Lagͻlöbhäbhili  
+Archives  Anciens documents  de sauve-
+garde de données  Bhlagͻgͻbͻgwι 
+Aride  Sec  Sιɛka 
+Aridité  Zone caractérisée par une 
+faible pluviométrie ou sèche-
+resse  möyɛbhlι 
+Arpège  Modèle de prévision  météo de 
+la France  Flasιsɛtɛnyιbhëgabhëgu  
+Association  Regroupement  Zökpa  
+Associer  Regrouper, assembler  Glι …zökpa  
+Astres  Etoiles du ciel  Zɛlι 
+Atmosphère  Couche de gaz qui  entoure la 
+terre  Zlιmönyͻmʋkwë  
+Atténuation  Actions humaines qui visent à 
+réduire les émissions de gaz à 
+effet de serre, par exemple, en 
+éliminant la combustion de 
+combustibles fossiles.  ʋsɛnιsɛnͻ 
+Autorité  Dirigeant, décideur  Nιkpɛkädͻ 
+Autorités  coutumières  Chefs coutumiers  Glͻmönιkpakädι 
+Autorités  politiques  Dirigeants,  gouvernants  Gͻmla / bhl ιsuwa  
+Autorités  religieuses  Responsables  religieux  Lagͻlowluwa  
+Aux abords  A côtés, aux  alentours, à la li-
+mite de Yͻwʋ
+   - koulango: Nuage moyen, gris, qui peut 
+apporter de la pluie.  jɔ́kɔ̰̀ blékò  
+Amas nuageux  Gros nuage (nuage de  grande 
+envergure)  jɔ́kɔ̰̀ blékò lílíí ɡò / jéɡò 
+ɲɩ ́ɩ ́ŋmɔ̰̀ sɩ́ɩ̰̀ kprɩ́kprɩ̰̀ 
+Amplitude thermique  Différence entre la tempéra-
+ture maximale et minimale sur 
+une période.  bén ba ̰̀ lɔ́m lɛ̰̀ wéè kɷ̰̀ lɔ́m 
+Anémomètre  Instrument qui permet de me-
+surer la vitesse du vent  ɟéwò bɩ ́ɩ ́kà zɷ ́ŋɔ̰̀ 
+Animateur  Animateur,  présentateur   
+(d'une émission)  a ́ma ́nɩ ̰̀ bɔ́sɛ̰̀/ma ́nɩ ̰̀ dɔ́sɛ̰̀ / ɡɷ́ ɷ ̰̀ 
+dɷ́sɛ̰̀ 
+Annuel  Par an  wɷ́rɷ́kɔ̰̀ nɷ ́ɷ ́ɡɔ̰̀ / wɷ́rɷ́kɔ̰̀ 
+wɷ́rɷ́kɔ̰̀ 
+Anomalie  Différence par  rapport à la nor-
+male (la moyenne sur 30  ans)  hɛ́rɛ̰̀ píì 
+Anomalie climatique  Écart par rapport aux condi-
+tions climatiques normales  dúɡù tɛ́m lɛ̰̀ mɷ́ nɷ ̰̀bɩ̰̀ tɛ́m 
+Anticyclone  Zone de haute pression, sou-
+vent synonyme de beau temps  jɔ́kɔ̰̀ ɟóflúlémjò da ́kɔ̰̀ / jɔ́kɔ̰̀ 
+zímpúɡúlíɟò da ́kɔ̰̀ 
+Anticyclone dynamique  Anticyclone qui se déplace 
+avec des vents changeants.  jɔ́kɔ̰̀ ɟóflúlémjò ɲɩ ́ɩ ́kà lɔ́m / 
+jɔ́kɔ̰̀ zímpúɡúlíɟò ɲɩ ́ɩ ́kà lɔ́m 
+Août  Août, 8e mois  fɩ ́ɲɔ̰̀ trɔ́frɩ́sa ̰̀ 
+Apport en eau  Quantité d'eau reçue dans une 
+région.  mɩ ́ɩ ̰̀ jɔ́kɔ̰̀ jì lɛ̰̀ da ̰̀ sáákɔ̰̀  
+nu ́ŋónì 
+Après  Après  hɔ̰̀ zɩ́kà 
+Après-midi  Après-midi  ɡbrékò ɟría ́ŋò zɩ́kà / ɡbrékò 
+ɡbɛlɩɟɔ 
+ 
+Arc en ciel  Arc-en-ciel  ɡláɡlàɡlóɡlò  
+Archives  Anciens documents  de sauve-
+garde de données  tɔ́ɷ ̰̀ dúɡúi ̰̀ / tɔ́ɷ ̰̀ wɩ ́nɩ ̰̀ bɔ̰̀ sásɩ̰̀ 
+Aride  Sec  hɩ́lɛ̰̀ 
+Aridité  Zone caractérisée par une 
+faible pluviométrie ou sèche-
+resse  hɩ́lɛ́ɡɛ̰̀ 
+Arpège  Modèle de prévision  météo de 
+la France  aboroci t ɛ́m ɡɷ ́ɷ ̰̀ mɩ ́nɩ ́ŋɔ̰̀ 
+Association  Regroupement  fékwò  
+Associer  Regrouper, assembler  tákɷ́ 
+Astres  Etoiles du ciel  práɟɔ̰̀ / práɷ ̰̀ 
+Atmosphère  Couche de gaz qui  entoure la 
+terre  jééɡòmɩ́là ɲɩ ́ŋmɔ̰̀ 
+Atténuation  Actions humaines qui visent à 
+réduire les émissions de gaz à 
+effet de serre, par exemple, en 
+éliminant la combustion de 
+combustibles fossiles.  dáɡà fjáɡɔ̰̀ brákɔ̰̀ 
+Autorité  Dirigeant, décideur  ma ́a ́sɛ̰̀ 
+Autorités  coutumières  Chefs coutumiers  a ́ŋɔ̰̀ tɛ́sɔ́ɡɔ̰̀
+5. Anciens Documents  De Sauve
+   - baoule: garde de données  Fluwa su yal ɛ /
+   - bete: garde de données  Bhlagͻgͻbͻgwι
+   - koulango: garde de données  tɔ́ɷ ̰̀ dúɡúi ̰̀ / tɔ́ɷ ̰̀ wɩ ́nɩ ̰̀ bɔ̰̀ sásɩ̰̀
+6. Appareil Fixé À Un Ballon Gonflé 
+Lancé Dans
+   - bete: l'atmosphère de-
+puis une station au sol qui per-
+met de mesurer la vitesse et la 
+direction du vent, l'humidité, la 
+pression, la température  Vͻvͻlʋghladio  
+Rafale  Souffle de vent soudain et ra-
+pide.  zämövuany ͻmʊ 
+Ralenti  Qu'on ne trouve pas  souvent, 
+difficile à  trouver  Waghlιɛsokomö  
+Reboisement  Le fait de planter les  arbres  Swiglʋgwlɛ 
+Réchauffement clima-
+tique  Augmentation de la tempéra-
+ture moyenne de la Terre due 
+aux activités humaines.  Tɛnyιmösuman ͻ 
+Récoltes  Les fruits des cultures  Wasɛkwlamö / ghl ɩghlɩlu 
+Récupération thermique  Processus de conservation de 
+la chaleur dans un environne-
+ment.  Kͻslʋkulakule  
+Récurrence  Fréquence à laquelle un évé-
+nement météorologique se 
+produit.  ʋyiyinͻ 
+Réduction de la  visibilité  Diminution de la  distance à la-
+quelle on  peut voir au loin  sεylɩnͻ ʊsεnͻ 
+Regain d'activités plu-
+vieux  Renforcement de la  pluie  Nyizakwë möpän ͻ 
+Regain de  mousson  Renforcement de la  mousson  Cwιgbʋplʋmövͻvͻlʋ möpänͻ 
+Régime de la  mousson  Le vent de mousson  Cwιgbʋplʋmövͻvͻlʋ 
+Régime pluvial  Type et quantité de précipita-
+tions dans une région donnée.  Bhlιpιͻmö löbhälöbhänyu  
+Régions  Un ensemble de  provinces diri-
+gées par un gouverneur  Bhlιpιͻ 
+Relevée  Le fait de collecter,  lire et écrire 
+les données sur un  tableau  Cɛlι / mözɛlι / wluyöbha  
+Rendement  Résultat de la récolte  Ghlιghlιlu 
+Représentant  Celui qui est présent  au nom 
+de quelqu'un  d'autre  Mͻmͻbhlemöw ʋnyͻ 
+Réseau de stations mé-
+téo Ensemble de stations surveil-
+lant les conditions atmosphé-
+riques.  Tɛnyιklʋkʋnιdezökpö  
+Réserves  Stocks, quelque chose qui est 
+gardé  Kulanιde / gbʋ 
+Résilience  Capacité de résister à  un choc 
+ou à un événement  inattendu, 
+brusque,  imprévu  Yliyͻwʋtɛnͻ / fikäkʋ 
+Résilience climatique  Capacité d'un système à 
+s'adapter aux changements 
+climatiques.  Tɛnyιmö yliyͻwʋtɛnͻ 
+Ressemis  Semer à nouveau  Bιwʋglʋnɛ 
+Risque  C'est un danger dont  on con-
+nait et qui peut  arriver  Zɛ
+7. Appareil Qui Montre  La Direc
+   - baoule: tion  Atin klefu ɛ
+   - bete: tion  Yiopäna
+   - koulango: tion  bɔ́ɔ́ŋɔ̰̀ ɲɩ ́ɩ ́kà zɷ ́ŋɔ̰̀ / ɲɩ ́ɩ ́kàzɷ ́ŋɔ̰̀
+8. Appareil Qui Permet  De Déter
+   - baoule: miner le lieu  où se trouvent un
+   - bete: miner le lieu  où se trouvent un
+   - koulango: miner le lieu  où se trouvent un
+9. Apparition De Nuages  Qui Dis
+   - baoule: paraissent d'un  moment à
+   - bete: paraissent d'un  moment à
+   - koulango: paraissent d'un  moment à
+10. Après
+   - baoule: midi  Après-midi  Wia jran su sin
+   - bete: midi  Après-midi  Cidosɛ
+   - koulango: midi  Après-midi  ɡbrékò ɟría ́ŋò zɩ́kà / ɡbrékò
+   ... et 165 autres termes
