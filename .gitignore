@@ -1,0 +1,38 @@
+# Lexique Météorologique Multilingue
+
+# Environnements virtuels
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sites générés
+site/
+*.egg-info/
+
+# Fichiers audio générés (optionnel - peut être commité)
+docs/audio/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Environnement
+.env
+.env.local

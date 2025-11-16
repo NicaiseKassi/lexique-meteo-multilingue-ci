@@ -1,0 +1,462 @@
+/**
+ * Styles CSS personnalisés pour le lexique météorologique multilingue
+ * 
+ * Fonctionnalités:
+ * - Boutons audio interactifs avec animations
+ * - Mise en page des traductions
+ * - Responsive design
+ * - Thème cohérent avec Material Design
+ * 
+ * Auteur: SODEXAM - Côte d'Ivoire
+ * Date: Novembre 2024
+ */
+
+/* ===== VARIABLES CSS ===== */
+:root {
+    --primary-color: #2196F3;
+    --primary-dark: #1976D2;
+    --primary-light: #BBDEFB;
+    --accent-color: #03DAC6;
+    --error-color: #F44336;
+    --warning-color: #FF9800;
+    --success-color: #4CAF50;
+    --text-color: #212121;
+    --text-secondary: #757575;
+    --background-light: #F5F5F5;
+    --border-color: #E0E0E0;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    
+    /* Espacements */
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.5rem;
+    --spacing-xl: 2rem;
+    
+    /* Bordures */
+    --border-radius: 4px;
+    --border-radius-lg: 8px;
+}
+
+/* ===== BOUTONS AUDIO ===== */
+.audio-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    margin-left: var(--spacing-sm);
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 1.1em;
+    line-height: 1;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px var(--shadow-color);
+    position: relative;
+    overflow: hidden;
+}
+
+.audio-btn:hover {
+    background: var(--primary-dark);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px var(--shadow-color);
+}
+
+.audio-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 2px var(--shadow-color);
+}
+
+.audio-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--primary-light);
+}
+
+.audio-btn:disabled {
+    background: #BDBDBD;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* États des boutons audio */
+.audio-btn.loading {
+    background: var(--warning-color);
+    animation: pulse-loading 1.5s ease-in-out infinite;
+}
+
+.audio-btn.ready {
+    background: var(--success-color);
+}
+
+.audio-btn.playing {
+    background: var(--accent-color);
+    animation: pulse-playing 1.5s ease-in-out infinite;
+}
+
+.audio-btn.error {
+    background: var(--error-color);
+    animation: shake 0.5s ease-in-out;
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes pulse-loading {
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: scale(0.95);
+    }
+}
+
+@keyframes pulse-playing {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        transform: translateX(-2px);
+    }
+    20%, 40%, 60%, 80% {
+        transform: translateX(2px);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ===== MISE EN PAGE DES TRADUCTIONS ===== */
+.translation-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--background-light);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-sm) var(--spacing-md);
+    margin: var(--spacing-sm) 0;
+    transition: all 0.3s ease;
+    animation: fadeInUp 0.5s ease-out;
+}
+
+.translation-item:hover {
+    background: #FFFFFF;
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.translation-text {
+    flex-grow: 1;
+    font-size: 1.1em;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-right: var(--spacing-sm);
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+.language-label {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 1.2em;
+    margin-bottom: var(--spacing-xs);
+    display: block;
+    text-transform: capitalize;
+}
+
+/* ===== SECTIONS ET CONTENEURS ===== */
+.terme-header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background: linear-gradient(135deg, var(--primary-light), #FFFFFF);
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+.terme-title {
+    font-size: 2.5em;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-sm);
+    font-weight: 300;
+}
+
+.terme-definition {
+    background: #FFFFFF;
+    border-left: 4px solid var(--primary-color);
+    padding: var(--spacing-lg);
+    margin: var(--spacing-lg) 0;
+    border-radius: 0 var(--border-radius) var(--border-radius) 0;
+    box-shadow: 0 2px 4px var(--shadow-color);
+}
+
+.terme-definition p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0;
+    color: var(--text-color);
+}
+
+.traductions-section {
+    margin-top: var(--spacing-xl);
+}
+
+.traductions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-lg);
+}
+
+.langue-group {
+    background: #FFFFFF;
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-lg);
+    box-shadow: 0 2px 8px var(--shadow-color);
+    transition: transform 0.3s ease;
+}
+
+.langue-group:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px var(--shadow-color);
+}
+
+/* ===== NAVIGATION ===== */
+.terme-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background: var(--background-light);
+    border-radius: var(--border-radius-lg);
+    border: 1px solid var(--border-color);
+}
+
+.nav-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+}
+
+/* ===== IMAGES ===== */
+.terme-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius-lg);
+    box-shadow: 0 4px 12px var(--shadow-color);
+    margin: var(--spacing-lg) auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.terme-image:hover {
+    transform: scale(1.02);
+}
+
+/* ===== RECHERCHE ET FILTRES ===== */
+.search-highlight {
+    background: var(--warning-color);
+    color: white;
+    padding: 2px 4px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+
+/* ===== MESSAGES D'ÉTAT ===== */
+.info-message {
+    background: var(--primary-light);
+    color: var(--primary-color);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    margin: var(--spacing-md) 0;
+    border: 1px solid var(--primary-color);
+}
+
+.error-message {
+    background: #FFEBEE;
+    color: var(--error-color);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    margin: var(--spacing-md) 0;
+    border: 1px solid var(--error-color);
+}
+
+.success-message {
+    background: #E8F5E8;
+    color: var(--success-color);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    margin: var(--spacing-md) 0;
+    border: 1px solid var(--success-color);
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+    :root {
+        --spacing-sm: 0.4rem;
+        --spacing-md: 0.8rem;
+        --spacing-lg: 1.2rem;
+        --spacing-xl: 1.6rem;
+    }
+    
+    .terme-title {
+        font-size: 2em;
+    }
+    
+    .translation-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-sm);
+    }
+    
+    .audio-btn {
+        margin-left: 0;
+        margin-top: var(--spacing-sm);
+        align-self: flex-end;
+    }
+    
+    .traductions-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-sm);
+    }
+    
+    .terme-navigation {
+        flex-direction: column;
+        gap: var(--spacing-md);
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .terme-header {
+        padding: var(--spacing-md);
+        margin: var(--spacing-md);
+    }
+    
+    .terme-title {
+        font-size: 1.8em;
+    }
+    
+    .translation-text {
+        font-size: 1em;
+    }
+    
+    .audio-btn {
+        min-width: 36px;
+        height: 36px;
+        font-size: 1em;
+    }
+}
+
+/* ===== PRINT STYLES ===== */
+@media print {
+    .audio-btn {
+        display: none;
+    }
+    
+    .terme-navigation {
+        display: none;
+    }
+    
+    .translation-item {
+        break-inside: avoid;
+        background: white;
+        border: 1px solid #ccc;
+    }
+    
+    .terme-image {
+        max-width: 300px;
+        box-shadow: none;
+    }
+}
+
+/* ===== ACCESSIBILITÉ ===== */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Focus visible pour navigation clavier */
+.audio-btn:focus-visible,
+.nav-link:focus-visible {
+    outline: 2px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+/* ===== AMÉLIORATIONS VISUELLES ===== */
+/* Effet de survol subtil pour les cartes */
+.md-content__inner {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Style des listes dans le contenu */
+.md-content ul li {
+    margin-bottom: var(--spacing-xs);
+}
+
+/* Style pour les badges de langue */
+.language-badge {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin-right: var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+}
+
+/* Amélioration de la lisibilité */
+.md-content p {
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+}
+
+/* Style pour les sections principales */
+.md-content h2 {
+    border-bottom: 2px solid var(--primary-light);
+    padding-bottom: var(--spacing-sm);
+    margin-top: var(--spacing-xl);
+    color: var(--primary-color);
+}
+
+.md-content h3 {
+    color: var(--primary-dark);
+    margin-top: var(--spacing-lg);
+}

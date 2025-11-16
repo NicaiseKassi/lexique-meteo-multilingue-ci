@@ -1,0 +1,66 @@
+site_name: Lexique Météorologique Multilingue
+site_description: Dictionnaire de terminologie météorologique en 8 langues - SODEXAM Côte d'Ivoire
+site_author: SODEXAM - Société d'Exploitation et de Développement Aéroportuaire, Aéronautique et Météorologique
+
+theme:
+  name: material
+  language: fr
+  palette:
+    primary: blue
+    accent: light blue
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+  icon:
+    logo: material/weather-cloudy
+
+# Configuration des fichiers personnalisés
+extra_javascript:
+  - javascripts/audio-player.js
+  
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions Markdown
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+
+# Configuration des plugins
+plugins:
+  - search:
+      lang: fr
+
+# Navigation du site
+nav:
+  - Accueil: index.md
+  - Termes météorologiques:
+    - A:
+      - Abri météo: termes/abri-meteo.md
+      - Accalmie: termes/accalmie.md
+      - Adaptation: termes/adaptation.md
+      - Altitude: termes/altitude.md
+      - Aérosol: termes/aerosol.md
+# Informations supplémentaires
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com
+  
+# Copyright
+copyright: Copyright &copy; 2024 SODEXAM - Côte d'Ivoire
