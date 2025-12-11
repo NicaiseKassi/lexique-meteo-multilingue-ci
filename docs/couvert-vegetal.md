@@ -1,0 +1,87 @@
+# Couvert végétal
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Couvert végétal</h1>
+    <div class="translation-item">
+        <span class="translation-text">Couvert végétal</span>
+        <button class="audio-btn" data-audio="../audio/couvert-vegetal_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+L'ensemble des
+herbes et des arbres
+sur un espace donné
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">Bo/ aunfuɛn</span>
+    <button class="audio-btn" data-audio="../audio/couvert-vegetal_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">Wlʋwlʋli / kwlatiti</span>
+    <button class="audio-btn" data-audio="../audio/couvert-vegetal_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">tʰɩ̀rà nà hɷ̀ɔ̀n</span>
+    <button class="audio-btn" data-audio="../audio/couvert-vegetal_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">Jᴐrᴐ falenfεnw</span>
+    <button class="audio-btn" data-audio="../audio/couvert-vegetal_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">kɔliɡɔ</span>
+    <button class="audio-btn" data-audio="../audio/couvert-vegetal_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">trúɡò</span>
+    <button class="audio-btn" data-audio="../audio/couvert-vegetal_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">blɯ̋-tá</span>
+    <button class="audio-btn" data-audio="../audio/couvert-vegetal_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

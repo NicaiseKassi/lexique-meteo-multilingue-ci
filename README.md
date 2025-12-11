@@ -1,13 +1,13 @@
-# Lexique Météorologique Multilingue 🌤️
+# 🌍 Lexique Météorologique Multilingue - Côte d'Ivoire
 
 <div align="center">
-  <h1>Dictionnaire de terminologie météorologique en 8 langues</h1>
+  <h2>Dictionnaire de terminologie météorologique en 8 langues</h2>
   <p><strong>Développé par la SODEXAM - Côte d'Ivoire 🇨🇮</strong></p>
   
-  ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
-  ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
-  ![MkDocs](https://img.shields.io/badge/mkdocs-material-blue.svg)
-  ![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-green.svg)
+  ![Version](https://img.shields.io/badge/version-1.0-blue.svg)
+  ![MkDocs](https://img.shields.io/badge/MkDocs-1.5.3+-green.svg)
+  ![Material](https://img.shields.io/badge/Material-9.0+-orange.svg)
+  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
   ![Status](https://img.shields.io/badge/status-active-success.svg)
 </div>
 
@@ -15,9 +15,12 @@
 
 ## 📖 À propos
 
-Ce projet est un **lexique météorologique multilingue interactif** développé par la **SODEXAM** (Société d'Exploitation et de Développement Aéroportuaire, Aéronautique et Météorologique) de Côte d'Ivoire en partenariat avec le **PNUE**.
+Ce projet est un **lexique météorologique multilingue interactif** développé par la **SODEXAM** (Société d'Exploitation et de Développement Aéroportuaire, Aéronautique et Météorologique) de Côte d'Ivoire en partenariat avec le **PNUE** et l'**Union Européenne**.
 
-Le lexique contient **plus de 200 termes météorologiques** traduits dans **8 langues** (français + 7 langues locales ivoiriennes) avec des **prononciations audio interactives** et des **définitions en français facile**.
+Le lexique contient **651 termes météorologiques** traduits dans **8 langues** (français + 7 langues locales ivoiriennes) avec des **prononciations audio interactives** et des **définitions complètes**.
+
+🔗 **Site web** : [À définir lors du déploiement]
+📦 **Repository** : [https://github.com/NicaiseKassi/lexique-meteo-multilingue-ci](https://github.com/NicaiseKassi/lexique-meteo-multilingue-ci)
 
 ### 🌍 Langues supportées
 

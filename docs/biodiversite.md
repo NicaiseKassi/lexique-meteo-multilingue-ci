@@ -1,0 +1,85 @@
+# Biodiversité
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Biodiversité</h1>
+    <div class="translation-item">
+        <span class="translation-text">Biodiversité</span>
+        <button class="audio-btn" data-audio="../audio/biodiversite_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+La diversité et la variabilité des organismes vivants au sein de chaque espèce, entre les espèces et au sein des écosystèmes
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">Blo ninge fanunfanun</span>
+    <button class="audio-btn" data-audio="../audio/biodiversite_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">bhlɩmöbhlɩbhlɩlicicici</span>
+    <button class="audio-btn" data-audio="../audio/biodiversite_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">tʰɩ̀ɛ̰̀ fɛ́w kɛ́ hán tʰɩ́rà</span>
+    <button class="audio-btn" data-audio="../audio/biodiversite_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">Lamini nimanfεnw sija shaman</span>
+    <button class="audio-btn" data-audio="../audio/biodiversite_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">Walami siiw yarira ni</span>
+    <button class="audio-btn" data-audio="../audio/biodiversite_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">sḭ́zɷ̰́ŋɔ̀ lɛ̀ sḭ́zɷ̰́ŋɔ̀ pɛ́ɛ̀</span>
+    <button class="audio-btn" data-audio="../audio/biodiversite_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Pʌ̄ gbà̰ kà̰à̰ kwʌ̄ʌ̄sɯ́</span>
+    <button class="audio-btn" data-audio="../audio/biodiversite_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

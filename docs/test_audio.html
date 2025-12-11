@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Audio Anticyclone</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .test-button { 
+            background: #2196F3; 
+            color: white; 
+            border: none; 
+            padding: 12px 20px; 
+            margin: 10px; 
+            border-radius: 6px; 
+            cursor: pointer; 
+            font-size: 16px; 
+        }
+        .test-button:hover { background: #1976D2; }
+        .log { 
+            background: #f5f5f5; 
+            padding: 15px; 
+            margin: 20px 0; 
+            border-radius: 6px; 
+            font-family: monospace; 
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔊 Test Audio Anticyclone</h1>
+    
+    <h2>Tests directs</h2>
+    <button class="test-button" onclick="testAudio1()">Test 1: audio/anticyclone/fr.mp3</button>
+    <button class="test-button" onclick="testAudio2()">Test 2: ../audio/anticyclone/fr.mp3</button>
+    <button class="test-button" onclick="testAudio3()">Test 3: /audio/anticyclone/fr.mp3</button>
+    
+    <h2>Tests avec playAudio</h2>
+    <button class="test-button" onclick="playAudio('audio/anticyclone/fr.mp3', this)">🔊 Français (playAudio)</button>
+    <button class="test-button" onclick="playAudio('audio/anticyclone/baoule.mp3', this)">🔊 Baoulé (playAudio)</button>
+    
+    <h2>Log des tests</h2>
+    <div id="log" class="log"></div>
+    
+    <script src="javascripts/audio-player.js"></script>
+    <script>
+        function log(message) {
+            const logElement = document.getElementById('log');
+            logElement.textContent += new Date().toLocaleTimeString() + ': ' + message + '\n';
+            console.log(message);
+        }
+        
+        function testAudio1() {
+            log('Test 1: Chargement audio/anticyclone/fr.mp3');
+            const audio = new Audio('audio/anticyclone/fr.mp3');
+            
+            audio.oncanplay = () => log('✅ Test 1: Audio prêt');
+            audio.onerror = (e) => log('❌ Test 1: Erreur - ' + e.message);
+            audio.onloadstart = () => log('📡 Test 1: Début chargement');
+            
+            audio.play().then(() => {
+                log('▶️ Test 1: Lecture démarrée');
+            }).catch(err => {
+                log('❌ Test 1: Échec lecture - ' + err.message);
+            });
+        }
+        
+        function testAudio2() {
+            log('Test 2: Chargement ../audio/anticyclone/fr.mp3');
+            const audio = new Audio('../audio/anticyclone/fr.mp3');
+            
+            audio.oncanplay = () => log('✅ Test 2: Audio prêt');
+            audio.onerror = (e) => log('❌ Test 2: Erreur - ' + e.message);
+            audio.onloadstart = () => log('📡 Test 2: Début chargement');
+            
+            audio.play().then(() => {
+                log('▶️ Test 2: Lecture démarrée');
+            }).catch(err => {
+                log('❌ Test 2: Échec lecture - ' + err.message);
+            });
+        }
+        
+        function testAudio3() {
+            log('Test 3: Chargement /audio/anticyclone/fr.mp3');
+            const audio = new Audio('/audio/anticyclone/fr.mp3');
+            
+            audio.oncanplay = () => log('✅ Test 3: Audio prêt');
+            audio.onerror = (e) => log('❌ Test 3: Erreur - ' + e.message);
+            audio.onloadstart = () => log('📡 Test 3: Début chargement');
+            
+            audio.play().then(() => {
+                log('▶️ Test 3: Lecture démarrée');
+            }).catch(err => {
+                log('❌ Test 3: Échec lecture - ' + err.message);
+            });
+        }
+        
+        log('🔧 Page de test chargée');
+        log('🔍 URL actuelle: ' + window.location.href);
+        log('📍 Pathname: ' + window.location.pathname);
+    </script>
+</body>
+</html>

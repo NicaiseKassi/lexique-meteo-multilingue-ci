@@ -1,15 +1,14 @@
-# Lexique Météorologique Multilingue
-
-<div class="terme-header">
+<!-- Section avec logos institutionnels et fond bleu ciel -->
+<div style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 50%, #90CAF9 100%); padding: 3.5rem 2.5rem; margin: 1rem 0 2rem 0; border-radius: 15px; box-shadow: 0 4px 15px rgba(33, 150, 243, 0.2);">
     <div style="text-align: center; margin-bottom: 2rem;">
-        <img src="images/Embleme.png" alt="Emblème Côte d'Ivoire" style="height: 80px; margin: 0 15px;">
-        <img src="images/Logo_Sodexam.png" alt="Logo SODEXAM" style="height: 80px; margin: 0 15px;">
-        <img src="images/Logo_PNUE.png" alt="Logo PNUE" style="height: 80px; margin: 0 15px;">
-        <img src="images/Logo_UE.png" alt="Logo Union Européenne" style="height: 80px; margin: 0 15px;">
+        <img src="images/Embleme.png" alt="Emblème Côte d'Ivoire" style="height: 100px; margin: 0 20px;">
+        <img src="images/Logo_Sodexam.png" alt="Logo SODEXAM" style="height: 75px; margin: 0 20px;">
+        <img src="images/Logo_PNUE.png" alt="Logo PNUE" style="height: 100px; margin: 0 20px;">
+        <img src="images/Logo_UE.png" alt="Logo Union Européenne" style="height: 100px; margin: 0 20px;">
     </div>
-    <h1 class="terme-title">🌤️ Lexique Météorologique Multilingue</h1>
-    <p style="font-size: 1.2em; color: #757575; margin: 0;">
-        Dictionnaire de terminologie météorologique en 8 langues de Côte d'Ivoire
+    
+    <p style="text-align: center; font-size: 1.4em; color: #1565C0; margin: 0; font-weight: 500; text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);">
+        Dictionnaire de terminologie météorologique en 7 langues de Côte d'Ivoire
     </p>
 </div>
 
@@ -30,7 +29,7 @@ Ce lexique, financé par le **PNUE** (Programme des Nations Unies pour l'Environ
 ## 📚 Contenu du lexique
 
 <div class="info-message">
-Ce lexique contient <strong>plus de 200 termes météorologiques</strong> traduits dans <strong>8 langues</strong>, avec des définitions en français facile et des prononciations audio.
+Ce document est un lexique complet de terminologie météorologique en français facile et dans 7 langues locales de Côte d'Ivoire (Baoulé, Bété, Lobi, Malinké, Sénoufo, Koulango et Yacouba). Il vise à faciliter la compréhension des bulletins météorologiques par les populations locales.
 </div>
 
 ### 🗣️ Langues disponibles
@@ -100,19 +99,19 @@ Ce lexique est optimisé pour :
 
 Découvrez quelques exemples de termes disponibles dans le lexique :
 
-### [🏠 Abri météo](termes/abri-meteo.md)
+### [🏠 Abri météo](abri-meteo.md)
 *Petite cage blanche contenant des instruments météo*
 
-### [☁️ Accalmie](termes/accalmie.md)
+### [☁️ Accalmie](accalmie.md)
 *Période de calme entre deux tempêtes*
 
-### [🌡️ Adaptation](termes/adaptation.md)
+### [🌡️ Adaptation](adaptation.md)
 *Ajustement aux changements climatiques*
 
-### [💨 Aérosol](termes/aerosol.md)
+### [💨 Aérosol](aerosol.md)
 *Petites particules dans l'air*
 
-### [⛰️ Altitude](termes/altitude.md)
+### [⛰️ Altitude](altitude.md)
 *Hauteur par rapport au niveau de la mer*
 
 !!! tip "Conseil d'utilisation"
@@ -171,21 +170,23 @@ Ce lexique a été élaboré grâce à la collaboration de :
     </div>
 </div>
 
+
+
 ## 📊 Statistiques du projet
 
 | Indicateur | Valeur |
 |------------|--------|
 | **Termes traduits** | 200+ |
-| **Langues couvertes** | 8 |
+| **Langues couvertes** | 7 |
 | **Fichiers audio** | 1600+ |
-| **Communautés touchées** | 15+ millions de locuteurs |
-| **Régions couvertes** | Toute la Côte d'Ivoire |
+| **Locuteurs des langues** | 15+ millions de personnes |
+| **Régions couvertes** | Nord, Est, Ouest, Centre |
 
 ## 🚀 Développements futurs
 
-### Phase 2 (2026)
+### Phase 2 (horizon 2030)
 
-- Extension à d'autres langues ivoiriennes (Dioula, Agni, Abbey)
+- Extension à d'autres langues ivoiriennes (Dioula, Agni, Abbey, etc )
 - Développement d'une application mobile
 - Intégration avec les systèmes d'alerte SMS
 - Formation des agents météorologiques régionaux

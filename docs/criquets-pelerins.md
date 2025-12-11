@@ -1,0 +1,90 @@
+# Criquets
+pèlerins
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Criquets
+pèlerins</h1>
+    <div class="translation-item">
+        <span class="translation-text">Criquets
+pèlerins</span>
+        <button class="audio-btn" data-audio="../audio/criquets-pelerins_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Insectes qui
+détruisent les
+récoltes, la végétation
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">Ago/ aɛcɛ</span>
+    <button class="audio-btn" data-audio="../audio/criquets-pelerins_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">Slʋja gägö</span>
+    <button class="audio-btn" data-audio="../audio/criquets-pelerins_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">sòò</span>
+    <button class="audio-btn" data-audio="../audio/criquets-pelerins_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">Tinyεlikε tᴐᴐnw</span>
+    <button class="audio-btn" data-audio="../audio/criquets-pelerins_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">kakéribele</span>
+    <button class="audio-btn" data-audio="../audio/criquets-pelerins_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">lɛ́ɛ̀lɛ̀ɛ̀</span>
+    <button class="audio-btn" data-audio="../audio/criquets-pelerins_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Bōdā-kpȁȁ</span>
+    <button class="audio-btn" data-audio="../audio/criquets-pelerins_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

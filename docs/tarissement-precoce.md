@@ -1,0 +1,87 @@
+# Tarissement précoce
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Tarissement précoce</h1>
+    <div class="translation-item">
+        <span class="translation-text">Tarissement précoce</span>
+        <button class="audio-btn" data-audio="../audio/tarissement-precoce_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Il n'y a plus d'eau
+avant la période
+(date) normale
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">Lika ndɛndɛ kee yolɛ</span>
+    <button class="audio-btn" data-audio="../audio/tarissement-precoce_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">Paa mlamlʋ</span>
+    <button class="audio-btn" data-audio="../audio/tarissement-precoce_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">ɲɔ̀ ʔwɩ́r wɷ̀ɔ̀rɛ̀</span>
+    <button class="audio-btn" data-audio="../audio/tarissement-precoce_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">ɟikᴐnkaɟali</span>
+    <button class="audio-btn" data-audio="../audio/tarissement-precoce_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">wami</span>
+    <button class="audio-btn" data-audio="../audio/tarissement-precoce_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">bɔ́ɔ̀ jɔ́kɔ̀ ɡbà̰ ṵ́ɲò</span>
+    <button class="audio-btn" data-audio="../audio/tarissement-precoce_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Ji̋ ɓɪ̋ɪ̋ ɤ́ va̰̋a̰̋ɗɤ́</span>
+    <button class="audio-btn" data-audio="../audio/tarissement-precoce_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

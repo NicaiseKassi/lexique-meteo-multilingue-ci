@@ -1,0 +1,88 @@
+# Abri météo
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Abri météo</h1>
+    <div class="translation-item">
+        <span class="translation-text">Abri météo</span>
+        <button class="audio-btn" data-audio="../audio/abri-meteo_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Petite cage blanche
+Contenant des
+instruments météo
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">blɛ amanniɛn sua/
+blɛ amanniɛn tangannin/ sitivɛnisɔnun alaka/akpa</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteo_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">meteolinɛnιköbhänιde</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteo_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">bɔ́hín tʰɩ̰́ tʰɩ̀ɩ̀n pár</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteo_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">wagati ɟateminanso</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteo_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">Kpapilé nì be lǎli kama yabàra cɛ́ɛ lè</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteo_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">tɛ́m ɡɷ̰́ɷ̰̀ mɩ̰́rɩ́ɡɔ̀ ɡbúkò</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteo_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">tʌ̰̋ŋ̋-gà-gɯ́-Kɔ̄</span>
+    <button class="audio-btn" data-audio="../audio/abri-meteo_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

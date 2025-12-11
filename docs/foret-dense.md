@@ -1,0 +1,88 @@
+# Forêt dense
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Forêt dense</h1>
+    <div class="translation-item">
+        <span class="translation-text">Forêt dense</span>
+        <button class="audio-btn" data-audio="../audio/foret-dense_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Espace de grande
+étendue de terrain
+occupée par de
+grands arbres touffus
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">Bo ble</span>
+    <button class="audio-btn" data-audio="../audio/foret-dense_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">Klagba töta</span>
+    <button class="audio-btn" data-audio="../audio/foret-dense_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">lú kò̰tín</span>
+    <button class="audio-btn" data-audio="../audio/foret-dense_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">Tufin</span>
+    <button class="audio-btn" data-audio="../audio/foret-dense_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">kɔlɔgɔ tɔɔ́ngo</span>
+    <button class="audio-btn" data-audio="../audio/foret-dense_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">trúɡò hḭ́jééɡò / kwájɔ̀ hḭ́jééɡò</span>
+    <button class="audio-btn" data-audio="../audio/foret-dense_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Blɯ̋kpɤ́</span>
+    <button class="audio-btn" data-audio="../audio/foret-dense_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

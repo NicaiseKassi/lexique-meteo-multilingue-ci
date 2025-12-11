@@ -1,0 +1,85 @@
+# Gouttes de condensation
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Gouttes de condensation</h1>
+    <div class="translation-item">
+        <span class="translation-text">Gouttes de condensation</span>
+        <button class="audio-btn" data-audio="../audio/gouttes-de-condensation_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Petites gouttes d'eau formées lorsque la vapeur d'eau se refroidit.
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">Kpukpuwa ja</span>
+    <button class="audio-btn" data-audio="../audio/gouttes-de-condensation_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">Bhuzebhuzenyutɛya</span>
+    <button class="audio-btn" data-audio="../audio/gouttes-de-condensation_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">ɲɔ̰̀kʰùlbè</span>
+    <button class="audio-btn" data-audio="../audio/gouttes-de-condensation_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">ɟigbεrεnin tᴐndiliɟi</span>
+    <button class="audio-btn" data-audio="../audio/gouttes-de-condensation_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">loɡi kafulo</span>
+    <button class="audio-btn" data-audio="../audio/gouttes-de-condensation_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">wúlɅ́ɡò prómì nɷ̰́ɷ̰́ɡɔ̀</span>
+    <button class="audio-btn" data-audio="../audio/gouttes-de-condensation_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Ji̋séŋ́sɯ̀ ɤ́ gò mʌ̰́ŋ́ gɯ̂</span>
+    <button class="audio-btn" data-audio="../audio/gouttes-de-condensation_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

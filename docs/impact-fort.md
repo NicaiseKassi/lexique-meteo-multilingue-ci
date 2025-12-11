@@ -1,0 +1,85 @@
+# impact Fort
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ impact Fort</h1>
+    <div class="translation-item">
+        <span class="translation-text">impact Fort</span>
+        <button class="audio-btn" data-audio="../audio/impact-fort_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Effet qui cause de gros dégâts ou beaucoup de problèmes
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">Nuan sa dan</span>
+    <button class="audio-btn" data-audio="../audio/impact-fort_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">Tobhu kädʋ</span>
+    <button class="audio-btn" data-audio="../audio/impact-fort_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">nɩ̀wɛ̀ kò̰tín</span>
+    <button class="audio-btn" data-audio="../audio/impact-fort_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">Kᴐlᴐlᴐba</span>
+    <button class="audio-btn" data-audio="../audio/impact-fort_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">tɔnɔ ɡbɔʔɔ</span>
+    <button class="audio-btn" data-audio="../audio/impact-fort_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">láɡàlɔ́m kpɷ̰́ɷ̰́kɔ̀ / láɡàlɔ́m ɡárɩ̀ dḭ́ḭ́dḭ̀</span>
+    <button class="audio-btn" data-audio="../audio/impact-fort_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Wɔ̰̋nú ɤ́ ɗó kʌ̄ gbɪ̋ ká</span>
+    <button class="audio-btn" data-audio="../audio/impact-fort_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

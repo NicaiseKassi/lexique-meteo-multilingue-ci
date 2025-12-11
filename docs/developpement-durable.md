@@ -1,0 +1,86 @@
+# Développement durable
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Développement durable</h1>
+    <div class="translation-item">
+        <span class="translation-text">Développement durable</span>
+        <button class="audio-btn" data-audio="../audio/developpement-durable_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Un développement qui répond aux besoins des générations actuelles sans compromettre la capacité des générations futures à répondre à leurs propres besoins
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">bɔ ko cɛ (like) / 
+ko cɛ (like)</span>
+    <button class="audio-btn" data-audio="../audio/developpement-durable_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">‘‘mögwlɛyukusɛmömɛ</span>
+    <button class="audio-btn" data-audio="../audio/developpement-durable_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">ʔjɛ̀kɷ́l gáálɩ́</span>
+    <button class="audio-btn" data-audio="../audio/developpement-durable_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">Jirawalikonyuma kutagalaɟan</span>
+    <button class="audio-btn" data-audio="../audio/developpement-durable_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">tɛnɛmi ga nyɔn</span>
+    <button class="audio-btn" data-audio="../audio/developpement-durable_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">hɛ́rɛ̀ láá jáá ɲɩ̰́ŋmɔ̀ láá ɡbɩ̀</span>
+    <button class="audio-btn" data-audio="../audio/developpement-durable_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Wɔ̰̋-kʌ̀-tʃà̰à̰ɗɤ́sɯ́ ɤ́ tʌ̰̋ŋ̋ gbàgɯ́</span>
+    <button class="audio-btn" data-audio="../audio/developpement-durable_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

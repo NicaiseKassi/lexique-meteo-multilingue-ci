@@ -1,0 +1,85 @@
+# Période froide
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Période froide</h1>
+    <div class="translation-item">
+        <span class="translation-text">Période froide</span>
+        <button class="audio-btn" data-audio="../audio/periode-froide_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Temps où les températures sont inférieures à la normale.
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">arɛ blɛ/ ɛrɛ blɛ</span>
+    <button class="audio-btn" data-audio="../audio/periode-froide_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">Wotlokwëtɛnyι</span>
+    <button class="audio-btn" data-audio="../audio/periode-froide_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">ʔwé bɔ́ɔ́</span>
+    <button class="audio-btn" data-audio="../audio/periode-froide_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">Sumaja wagati</span>
+    <button class="audio-btn" data-audio="../audio/periode-froide_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">weri lǎla</span>
+    <button class="audio-btn" data-audio="../audio/periode-froide_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">wéè tɛ́m / wéè prɛ́ɷ̰̀</span>
+    <button class="audio-btn" data-audio="../audio/periode-froide_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Tʌ̰̋ŋ̋ sɛ̏ɛ̏</span>
+    <button class="audio-btn" data-audio="../audio/periode-froide_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

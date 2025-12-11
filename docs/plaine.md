@@ -1,0 +1,86 @@
+# Plaine
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Plaine</h1>
+    <div class="translation-item">
+        <span class="translation-text">Plaine</span>
+        <button class="audio-btn" data-audio="../audio/plaine_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Terrain plat où on
+peut cultiver
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">asiɛ plaun</span>
+    <button class="audio-btn" data-audio="../audio/plaine_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">ʋmlιnιdʋdʋ</span>
+    <button class="audio-btn" data-audio="../audio/plaine_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">pápʰɛ́rɛ́pár</span>
+    <button class="audio-btn" data-audio="../audio/plaine_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">Dugukolo sεnεta</span>
+    <button class="audio-btn" data-audio="../audio/plaine_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">tԑfála falaɡa</span>
+    <button class="audio-btn" data-audio="../audio/plaine_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">sáákɔ̀ bɔ́ɔ̀ bɔ̀ mà̰ ɡbá</span>
+    <button class="audio-btn" data-audio="../audio/plaine_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Bá̰á̰ɗɛ̀</span>
+    <button class="audio-btn" data-audio="../audio/plaine_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

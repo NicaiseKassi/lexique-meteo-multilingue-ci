@@ -1,0 +1,86 @@
+# Volcans
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Volcans</h1>
+    <div class="translation-item">
+        <span class="translation-text">Volcans</span>
+        <button class="audio-btn" data-audio="../audio/volcans_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Montagne qui crache
+du feu
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">sika Oka</span>
+    <button class="audio-btn" data-audio="../audio/volcans_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">kosungwlatrʋkwa</span>
+    <button class="audio-btn" data-audio="../audio/volcans_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">dɔ̀ɔ̀ kɛ́ pʰán gɔ̰̀gɔ̰́ jɷ́ɔ́</span>
+    <button class="audio-btn" data-audio="../audio/volcans_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">takuru</span>
+    <button class="audio-btn" data-audio="../audio/volcans_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">nanɡe ɡi yiɡi le nyan̰belenyuyi na</span>
+    <button class="audio-btn" data-audio="../audio/volcans_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">ɡbɔ́kɔ̀ láá sì dáɡà</span>
+    <button class="audio-btn" data-audio="../audio/volcans_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Wɔ̋ ɤ́ gó tɔ̰̀ ɡɯ́</span>
+    <button class="audio-btn" data-audio="../audio/volcans_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

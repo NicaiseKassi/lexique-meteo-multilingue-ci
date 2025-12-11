@@ -1,0 +1,85 @@
+# Zénithal
+
+<div class="terme-header">
+    <h1 class="terme-title">🌦️ Zénithal</h1>
+    <div class="translation-item">
+        <span class="translation-text">Zénithal</span>
+        <button class="audio-btn" data-audio="../audio/zenithal_fr.mp3" title="Écouter la prononciation">🔊</button>
+    </div>
+</div>
+
+
+## ✏️ Définition (Français facile)
+
+<div class="terme-definition">
+Relatif à la position la plus élevée du soleil dans le ciel.
+</div>
+
+## 🗣️ Traductions
+
+<div class="traductions-section">
+    <div class="traductions-grid">
+        <div class="langue-group">
+            <div class="language-label">Baoulé</div>
+            <div class="translation-item">
+    <span class="translation-text">wia je</span>
+    <button class="audio-btn" data-audio="../audio/zenithal_baoule.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Bété</div>
+            <div class="translation-item">
+    <span class="translation-text">zlɩmö</span>
+    <button class="audio-btn" data-audio="../audio/zenithal_bete.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Lobi</div>
+            <div class="translation-item">
+    <span class="translation-text">ʔɷ́kʰɔ́ɔ́</span>
+    <button class="audio-btn" data-audio="../audio/zenithal_lobi.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Malinké</div>
+            <div class="translation-item">
+    <span class="translation-text">Teregbanlaman</span>
+    <button class="audio-btn" data-audio="../audio/zenithal_malinke.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Sénoufo</div>
+            <div class="translation-item">
+    <span class="translation-text">ca̰vulԑli</span>
+    <button class="audio-btn" data-audio="../audio/zenithal_senoufo.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Koulango</div>
+            <div class="translation-item">
+    <span class="translation-text">ɡbéré táákɔ̀</span>
+    <button class="audio-btn" data-audio="../audio/zenithal_koulango.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+        <div class="langue-group">
+            <div class="language-label">Yacouba</div>
+            <div class="translation-item">
+    <span class="translation-text">Jʌ̰̋ŋ̋ ɗò se̋ ká gblɛ̰̀ɛ̰̀ sɯ̀</span>
+    <button class="audio-btn" data-audio="../audio/zenithal_yacouba.mp3" title="Écouter la prononciation">🔊</button>
+</div>
+        </div>
+    </div>
+</div>
+
+## 📖 Contexte d'utilisation
+
+<div class="contexte-utilisation">
+Ce terme est utilisé dans les bulletins météorologiques et les prévisions climatiques en Côte d'Ivoire.
+</div>
+
+---
+
+<div class="navigation-buttons">
+    <a href="index.md" class="btn-retour">⬅️ Retour à l'accueil</a>
+    <a href="termes-meteorologiques.md" class="btn-index">📑 Index des termes</a>
+</div>

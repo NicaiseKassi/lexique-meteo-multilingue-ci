@@ -1,28 +1,40 @@
-site_name: Lexique Météorologique Multilingue
-site_description: Dictionnaire de terminologie météorologique en 8 langues - SODEXAM Côte d'Ivoire
+site_name: Lexique Météorologique Multilingue Cote d'Ivoire
+site_description: Dictionnaire de terminologie météorologique en 7 langues - SODEXAM Côte d'Ivoire
 site_author: SODEXAM - Société d'Exploitation et de Développement Aéroportuaire, Aéronautique et Météorologique
+
+# Informations sur la version
+extra:
+  version: 1.0
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/NicaiseKassi/lexique-meteo-multilingue-ci
+      name: Code source sur GitHub
 
 theme:
   name: material
   language: fr
+  custom_dir: docs/overrides
   palette:
     primary: blue
     accent: light blue
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.top
     - search.suggest
     - search.highlight
-    - navigation.expand
-    - navigation.path
+    - search.share
     - toc.integrate
   icon:
     logo: material/weather-cloudy
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 # Configuration des fichiers personnalisés
 extra_javascript:
   - javascripts/audio-player.js
+  - javascripts/search-weather.js
   
 extra_css:
   - stylesheets/extra.css
@@ -53,36 +65,621 @@ use_directory_urls: true
 nav:
   - Accueil: index.md
   - Termes météorologiques:
+    - Index des termes: termes-meteorologiques.md
     - A:
-      - Abri météorologique: termes/abri-meteorologique.md
-      - Accalmie: termes/accalmie.md
-      - Adaptation: termes/adaptation.md
-      - Altitude: termes/altitude.md
-      - Anticyclone: termes/anticyclone.md
-      - Anémomètre: termes/anemometre.md
-      - Arc-en-ciel: termes/arc-en-ciel.md
-      - Aride: termes/aride.md
-      - Atmosphère: termes/atmosphere.md
-      - Aérosol: termes/aerosol.md
+      - Abri météo: abri-meteo.md
+      - Accalmie: accalmie.md
+      - Accès (à quelque chose): acces-quelque-chose.md
+      - Adaptation: adaptation.md
+      - Adaptation à base communautaire: adaptation-base-communautaire.md
+      - Adaptation basée sur les écosystèmes: adaptation-basee-sur-les-ecosystèmes.md
+      - Advection: advection.md
+      - Aérologie: aerologie.md
+      - Aérosol: aerosol.md
+      - Afficher: afficher.md
+      - Agro météorologie: agro-meteorologie.md
+      - Alizé: alize.md
+      - Altostratus: altostratus.md
+      - Altitude: altitude.md
+      - Amas nuageux: amas-nuageux.md
+      - Amplitude thermique: amplitude-thermique.md
+      - Anémomètre: anemometre.md
+      - Animateur: animateur.md
+      - Annuel: annuel.md
+      - Anomalie climatique: anomalie-climatique.md
+      - Anticyclone: anticyclone.md
+      - Anticyclone dynamique: anticyclone-dynamique.md
+      - Août: août.md
+      - Apport en eau: apport-eau.md
+      - Après: apres.md
+      - Après-midi: apres-midi.md
+      - Arc-en-ciel: arc-en-ciel.md
+      - Archives: archives.md
+      - Aride: aride.md
+      - Aridité: aridite.md
+      - Arpège: arpege.md
+      - Association: association.md
+      - Associer: associer.md
+      - Astres: astres.md
+      - Atmosphère: atmosphere.md
+      - Atténuation: attenuation.md
+      - Autorité: autorite.md
+      - Avril: avril.md
+      - Avant: avant.md
+      - Averse: averse.md
+      - Aux abords: aux-abords.md
+      - Axe: axe.md
     - B:
-      - Baromètre: termes/barometre.md
-      - Brouillard: termes/brouillard.md
+      - Baisse: baisse.md
+      - Baromètre: barometre.md
+      - Barrage: barrage.md
+      - Barrage hydro-électrique: barrage-hydro-electrique.md
+      - Bases: bases.md
+      - Bas-fonds: bas-fonds.md
+      - Bassins: bassins.md
+      - Basse pression: basse-pression.md
+      - Beau temps: beau-temps.md
+      - Besoin en eau d'une plante: besoin-eau-plante.md
+      - Bilan hydrique climatique: bilan-hydrique-climatique.md
+      - Bilan hydrique d'une plante: bilan-hydrique-plante.md
+      - Biodiversité: biodiversite.md
+      - Boucle de rétroaction: boucle-de-retroaction.md
+      - Boue: boue.md
+      - Boussole: boussole.md
+      - Bouturage: bouturage.md
+      - Bras du fleuve: bras-du-fleuve.md
+      - Bras du lac: bras-du-lac.md
+      - Brise de mer: brise-de-mer.md
+      - Brouillard: brouillard.md
+      - Brumes: brumes.md
+      - Bulletin météorologique: bulletin-meteorologique.md
+      - Buttage: buttage.md
     - C:
-      - Climat: termes/climat.md
-      - Cyclone: termes/cyclone.md
+      - Canaux: canaux.md
+      - Canicule: canicule.md
+      - Capteur: capteur.md
+      - Caractéristique: caracteristique.md
+      - Carte: carte.md
+      - Catastrophe: catastrophe.md
+      - Céder (digue): ceder-digue.md
+      - Chaleur: chaleur.md
+      - Chaleur extrême: chaleur-extreme.md
+      - Champs: champs.md
+      - Champignons: champignons.md
+      - Changement climatique: changement-climatique.md
+      - Chenille: chenille.md
+      - Choix de variété: choix-de-variete.md
+      - Chute de neige: chute-de-neige.md
+      - Ciel: ciel.md
+      - Cirrus: cirrus.md
+      - Clairsemé: clairseme.md
+      - Climat: climat.md
+      - Climato-dépendante: climato-dependante.md
+      - Climatologie: climatologie.md
+      - Collaboration: collaboration.md
+      - Collines: collines.md
+      - Communautaires: communautaires.md
+      - Commune: commune.md
+      - Comparé: compare.md
+      - Condition météo: condition-meteo.md
+      - Condensation: condensation.md
+      - Conduite: conduite.md
+      - Conseils: conseils.md
+      - Conservation des aliments: conservation-aliments.md
+      - Constat: constat.md
+      - Contre saison: contre-saison.md
+      - Convection: convection.md
+      - Coopératives: cooperatives.md
+      - Cordon herbacé: cordon-herbace.md
+      - Côtes: cotes.md
+      - Couché du soleil: couche-du-soleil.md
+      - Couche d'ozone: couche-dozone.md
+      - Couleurs: couleurs.md
+      - Courant d'air: courant-dair.md
+      - Cours d'eau: cours-deau.md
+      - Couvert végétal: couvert-vegetal.md
+      - Couverture nuageuse: couverture-nuageuse.md
+      - Couverture végétale: couverture-vegetale.md
+      - Criquets pèlerins: criquets-pelerins.md
+      - Crue: crue.md
+      - Crue éclair: crue-eclair.md
+      - Cultivateurs: cultivateurs.md
+      - Cumul: cumul.md
+      - Cumulonimbus: cumulonimbus.md
+      - Cumulus: cumulus.md
+      - Cumul pluviométrique: cumul-pluviometrique.md
+      - Cultures basses: cultures-basses.md
+      - Cuvette: cuvette.md
+      - Cultures de rentes: cultures-de-rentes.md
+      - Cultures hautes: cultures-hautes.md
+      - Cultures vivrières: cultures-vivrieres.md
+      - Cycle court: cycle-court.md
+      - Cycle long: cycle-long.md
+      - Cycle moyen: cycle-moyen.md
+      - Cyclone: cyclone.md
+      - Cyclone intense: cyclone-intense.md
+      - Cyclone moyen: cyclone-moyen.md
+    - D:
+      - Déboisement: deboisement.md
+      - Débordement: debordement.md
+      - Début de saison: debut-de-saison.md
+      - Début normal: debut-normal.md
+      - Début précoce: debut-precoce.md
+      - Début tardif: debut-tardif.md
+      - Décade: decade.md
+      - Décembre: decembre.md
+      - Décennie: decennie.md
+      - Décrue: decrue.md
+      - Décrypter: decrypter.md
+      - Défaut: defaut.md
+      - Déficit: deficit.md
+      - Déficitaire: deficitaire.md
+      - Dégagé (Ciel): degage-ciel.md
+      - Dégarnis (ciel): degarnis-ciel.md
+      - Dégâts: degats.md
+      - Degré: degre.md
+      - Délicat: delicat.md
+      - Demi-lune: demi-lune.md
+      - Dense: dense.md
+      - Dent de scie: dent-de-scie.md
+      - Département: departement.md
+      - Dépression: depression.md
+      - Dernière 24 heures: derniere-24-heures.md
+      - Désert: desert.md
+      - Désertification: desertification.md
+      - Développement durable: developpement-durable.md
+      - Déviation climatique: deviation-climatique.md
+      - Différence: difference.md
+      - Digue: digue.md
+      - Dimanche: dimanche.md
+      - Direction (du vent): direction-du-vent.md
+      - Disposition: disposition.md
+      - Divagation des animaux: divagation-des-animaux.md
+      - Dorsale: dorsale.md
+      - Douceur: douceur.md
+      - Dunes: dunes.md
+    - E:
+      - Eaux souterraines: eaux-souterraines.md
+      - Eaux de ruissellement: eaux-de-ruissellement.md
+      - Eaux stagnantes: eaux-stagnantes.md
+      - Ecart: ecart.md
+      - Echelle: echelle.md
+      - Échelle de Richter: echelle-de-richter.md
+      - Eclair: eclair.md
+      - Eclipse: eclipse.md
+      - Economie (d'eau): economie-deau.md
+      - Ecosystèmes: ecosystemes.md
+      - Eleveurs: eleveurs.md
+      - Emission de gaz: emission-de-gaz.md
+      - Emissions radio: emissions-radio.md
+      - Enclos: enclos.md
+      - Endroit: endroit.md
+      - Engrais: engrais.md
+      - Engrais organiques: engrais-organiques.md
+      - Engrais biologique: engrais-biologique.md
+      - Engrais minérale: engrais-minerale.md
+      - Ensoleillé: ensoleille.md
+      - Entre: entre.md
+      - Ephémères: ephemeres.md
+      - Équateur: equateur.md
+      - Équinoxe: equinoxe.md
+      - Equivalent: equivalent.md
+      - Érosion: erosion.md
+      - Espaces protégés: espaces-proteges.md
+      - Espèces: especes.md
+      - Espèces animales: especes-animales.md
+      - Espèces en voie de disparition: especes-en-voie-de-disparition.md
+      - Espèces protégées: especes-protegees.md
+      - Espèces végétales: especes-vegetales.md
+      - Est: est.md
+      - Estimation: estimation.md
+      - Etat: etat.md
+      - Etoile: etoile.md
+      - Etoile polaire: etoile-polaire.md
+      - Evaporation: evaporation.md
+      - Évaporation: evaporation.md
+      - Evapotranspiration: evapotranspiration.md
+      - Évènement: evenement.md
+      - Excédentaire: excedentaire.md
+      - Expert: expert.md
+      - Explication: explication.md
+      - Extrême: extreme.md
+    - F:
+      - Faible: faible.md
+      - Faible à modéré (vent): faible-a-modere-vent.md
+      - Faux départ: faux-depart.md
+      - Feu de brousse: feu-de-brousse.md
+      - Février: fevrier.md
+      - Figure: figure.md
+      - Fin de saison: fin-de-saison.md
+      - Fin normale: fin-normale.md
+      - Fin précoce: fin-precoce.md
+      - Fin tardive: fin-tardive.md
+      - Flaque d'eau: flaque-deau.md
+      - Fleuve: fleuve.md
+      - Floraison: floraison.md
+      - Foire: foire.md
+      - Forêt dense: foret-dense.md
+      - Formation éparse (de nuage): formation-eparse-de-nuage.md
+      - Formation sporadique: formation-sporadique.md
+      - Fort (vent): fort-vent.md
+      - Foudre: foudre.md
+      - Foyer orageux: foyer-orageux.md
+      - Fraicheur: fraicheur.md
+      - Frais: frais.md
+      - Fréquence des tempêtes: frequence-des-tempetes.md
+      - Froid: froid.md
+      - Front chaud: front-chaud.md
+      - Front froid: front-froid.md
+      - Front inter tropical: front-inter-tropical.md
+      - Fructification: fructification.md
+      - Fumier: fumier.md
+      - Fumure organique: fumure-organique.md
+    - G:
+      - Gel ano: gel-ano.md
+      - Girouette: girouette.md
+      - Gouttes de condensation: gouttes-de-condensation.md
+      - Gouvernement: gouvernement.md
+      - GPS: gps.md
+      - Graines: graines.md
+      - Grande saison des pluies: grande-saison-des-pluies.md
+      - Granivores: granivores.md
+      - Grêle: grele.md
+      - Grêles: greles.md
+      - Grenouille: grenouille.md
+      - Groupe: groupe.md
+      - Groupement: groupement.md
+      - Guides: guides.md
     - H:
-      - Humidité: termes/humidite.md
+      - Harmattan: harmattan.md
+      - Hausse: hausse.md
+      - Hebdomadaire: hebdomadaire.md
+      - Hémisphère: hemisphere.md
+      - Herbacée (plante): herbacee.md
+      - Herbes: herbes.md
+      - Heure: heure.md
+      - Hivernage: hivernage.md
+      - Horizon: horizon.md
+      - Humidité: humidite.md
+      - Humidité relative: humidite-relative.md
+      - Humidité absolue: humidite-absolue.md
+      - Hygromètre: hygrometre.md
+    - I:
+      - Illimitées: illimitees.md
+      - Images radar météo: images-radar-meteo.md
+      - Impact: impact.md
+      - Impact faible: impact-faible.md
+      - Impact fort: impact-fort.md
+      - Impact moyen: impact-moyen.md
+      - Incursion de vent: incursion-de-vent.md
+      - Indice différentiel normalisé: indice-differentiel-normalise.md
+      - Indice normalisé: indice-normalise.md
+      - Indice de chaleur: indice-de-chaleur.md
+      - Indice de satisfaction en eau des cultures: indice-de-satisfaction-en-eau-des-cultures.md
+      - Industrie: industrie.md
+      - Infiltration: infiltration.md
+      - Information: information.md
+      - Inondation: inondation.md
+      - Insectes: insectes.md
+      - Instabilité: instabilite.md
+      - Installation normale: installation-normale.md
+      - Installation précoce: installation-precoce.md
+      - Installation: installation.md
+      - Installation tardive: installation-tardive.md
+      - Intensité: intensite.md
+      - Intensité modérée: intensite-moderee.md
+      - Intervention: intervention.md
+      - Inversion de température: inversion-de-temperature.md
+      - Invisibilité: invisibilite.md
+      - Irrigation: irrigation.md
+      - Irriguer: irriguer.md
+      - Isoler: isoler.md
+      - Isotherme: isotherme.md
+    - J:
+      - Janvier: janvier.md
+      - Jeudi: jeudi.md
+      - Journalier: journalier.md
+      - Journée: journee.md
+      - Juillet: juillet.md
+      - Juin: juin.md
+      - Jumelles: jumelles.md
+      - Justice climatique: justice-climatique.md
+    - K:
+      - Kilomètre/Heure: kilometre-heure.md
+    - L:
+      - La Niña: la-nina.md
+      - La normale: la-normale.md
+      - Labour: labour.md
+      - Lac: lac.md
+      - Lame d'eau: lame-eau.md
+      - Latitude: latitude.md
+      - Leader: leader.md
+      - Lecture: lecture.md
+      - Légende: legende.md
+      - Les rapides: les-rapides.md
+      - Ligne de grains: ligne-grains.md
+      - Lit mineur: lit-mineur.md
+      - Longitude: longitude.md
+      - Lundi: lundi.md
+      - Lune: lune.md
+    - M:
+      - Mai: mai.md
+      - Maîtriser: maitriser.md
+      - Majeure partie du pays: majeure-partie-pays.md
+      - Manifestation pluvieux-orageuse: manifestation-pluvieux-orageuse.md
+      - Manteau neigeux: manteau-neigeux.md
+      - Marché du carbone: marche-carbone.md
+      - Mardi: mardi.md
+      - Marigot: marigot.md
+      - Mars: mars.md
+      - Masse d'air: masse-air.md
+      - Matin: matin.md
+      - Matinée: matinee.md
+      - Maximale: maximale.md
+      - Maximum: maximum.md
+      - Mécanisme: mecanisme.md
+      - Mélanges: melanges.md
+      - Mensuel: mensuel.md
+      - Mer: mer.md
+      - Mercredi: mercredi.md
+      - Message: message.md
+      - Mesurer: mesurer.md
+      - Météo: meteo.md
+      - Météo marine: meteo-marine.md
+      - Météogramme: meteogramme.md
+      - Météorologie: meteorologie.md
+      - Mètre: metre.md
+      - Microclimat: microclimat.md
+      - Mi-journée: mi-journee.md
+      - Midi: midi.md
+      - Millibar: millibar.md
+      - Millimètre d'eau: millimetre-eau.md
+      - Minimum: minimum.md
+      - Mi-saison: mi-saison.md
+      - Mise à jour: mise-a-jour.md
+      - Modèle numérique: modele-numerique.md
+      - Modèles: modeles.md
+      - Modéré: modere.md
+      - Modérées à fortes: moderees-a-fortes.md
+      - Moisissures: moisissures.md
+      - Montagne: montagne.md
+      - Mousson: mousson.md
+      - Moussons: moussons.md
+      - Moyenne: moyenne.md
     - N:
-      - Nuage: termes/nuage.md
+      - Nappe de brouillard: nappe-brouillard.md
+      - Nappes: nappes.md
+      - Nappes phréatiques: nappes-phreatiques.md
+      - Nébuleux: nebuleux.md
+      - Nébulosité: nebulosite.md
+      - Neige: neige.md
+      - Neige fondue: neige-fondue.md
+      - Neige sèche: neige-seche.md
+      - Neiges: neiges.md
+      - Néré: nere.md
+      - Neutre: neutre.md
+      - Nimbostratus: nimbostratus.md
+      - Nombre: nombre.md
+      - Nord: nord.md
+      - Nordique: nordique.md
+      - Normal climatique: normal-climatique.md
+      - Normale: normale.md
+      - Normale à déficitaire: normale-a-deficitaire.md
+      - Normale à excédentaire: normale-a-excedentaire.md
+      - Novembre: novembre.md
+      - Nuage: nuage.md
+      - Nuage bas: nuage-bas.md
+    - O:
+      - Observer: observer.md
+      - Occlusion: occlusion.md
+      - Océanographie: oceanographie.md
+      - Océans: oceans.md
+      - Octobre: octobre.md
+      - Oiseaux: oiseaux.md
+      - Ombre: ombre.md
+      - Organisations paysannes: organisations-paysannes.md
+      - Organisées: organisees.md
+      - Oscillé: oscille.md
+      - Ouest: ouest.md
+      - Ouragans: ouragans.md
+      - Outils: outils.md
+      - Ouvrage hydraulique: ouvrage-hydraulique.md
+      - Oxygène: oxygene.md
+      - Ozone: ozone.md
+      - Ozone stratosphérique: ozone-stratospherique.md
     - P:
-      - Pluie: termes/pluie.md
+      - Par endroit: par-endroit.md
+      - Par rapport: par-rapport.md
+      - Parcs météo: parcs-meteo.md
+      - Partenaires: partenaires.md
+      - Particules en suspension: particules-en-suspension.md
+      - Pâturage: paturage.md
+      - Pause pluviométrique: pause-pluviometrique.md
+      - Période froide: periode-froide.md
+      - Petite saison des pluies: petite-saison-des-pluies.md
+      - Phénomène: phenomene.md
+      - Phénomène El Niño: phenomene-el-nino.md
+      - Plaine: plaine.md
+      - Plateau: plateau.md
+      - Pluie: pluie.md
+      - Pluie intermittente: pluie-intermittente.md
+      - Pluviomètre: pluviometre.md
+      - Précipitations: precipitations.md
+      - Prévision: prevision.md
+    - Q:
+      - Quantité: quantite.md
+      - Quantité de précipitations: quantite-de-precipitations.md
+      - Quasi stationnaire: quasi-stationnaire.md
+      - Quotidien: quotidien.md
+    - R:
+      - Radar météo: radar-meteo.md
+      - Radier: radier.md
+      - Radio-sondage: radio-sondage.md
+      - Rafale: rafale.md
+      - Ralenti: ralenti.md
+      - Reboisement: reboisement.md
+      - Réchauffement climatique: rechauffement-climatique.md
+      - Récoltes: recoltes.md
+      - Récupération thermique: recuperation-thermique.md
+      - Récurrence: recurrence.md
+      - Réduction de la visibilité: reduction-de-la-visibilite.md
+      - Regain d'activités pluvieux: regain-activites-pluvieux.md
+      - Regain de mousson: regain-de-mousson.md
+      - Régime de la mousson: regime-de-la-mousson.md
+      - Régime pluvial: regime-pluvial.md
+      - Régions: regions.md
+      - Relevée: relevee.md
+      - Rendement: rendement.md
+      - Représentant: representant.md
+      - Réseau de stations météo: reseau-de-stations-meteo.md
+      - Réserves: reserves.md
+      - Résilience: resilience.md
+      - Résilience climatique: resilience-climatique.md
+      - Ressemis: ressemis.md
+      - Risque: risque.md
+      - Risque climatique: risque-climatique.md
+      - Risque d'inondation: risque-inondation.md
+      - Rives: rives.md
+      - Rivières: rivieres.md
+      - Rosée: rosee.md
+      - Rupture: rupture.md
+      - Rutilisation: rutilisation.md
     - S:
-      - Soleil: termes/soleil.md
-      - Sécheresse: termes/secheresse.md
+      - Sable: sable.md
+      - Sahel: sahel.md
+      - Sahélien: sahelien.md
+      - Saison des pluies: saison-des-pluies.md
+      - Saison froide: saison-froide.md
+      - Saison pluvieuse: saison-pluvieuse.md
+      - Saison sèche: saison-seche.md
+      - Samedi: samedi.md
+      - Sanction: sanction.md
+      - Sarclage: sarclage.md
+      - Satellite (météo): satellite-meteo.md
+      - Satellite météorologique: satellite-meteorologique.md
+      - Savane: savane.md
+      - Science: science.md
+      - Sécheresse: secheresse.md
+      - Secours d'urgence: secours-urgence.md
+      - Semaine: semaine.md
+      - Semence: semence.md
+      - Semestriel: semestriel.md
+      - Semis: semis.md
+      - Septembre: septembre.md
+      - Séquence: sequence.md
+      - Séquence sèche: sequence-seche.md
+      - Seuil: seuil.md
+      - Signal climatique: signal-climatique.md
+      - Signification: signification.md
+      - Similaire: similaire.md
+      - Sinistrés: sinistres.md
+      - Situation agricole: situation-agricole.md
+      - Sol: sol.md
+      - Sol dénudé: sol-denude.md
+      - Soleil: soleil.md
+      - Solutions fondées sur la nature: solutions-fondees-nature.md
+      - Soudanien (zone soudanienne): soudanien-zone-soudanienne.md
+      - Sources: sources.md
+      - Stabilité: stabilite.md
+      - Station agro météorologique: station-agro-meteorologique.md
+      - Station météorologique: station-meteorologique.md
+      - Station synoptique: station-synoptique.md
+      - Stationnaire: stationnaire.md
+      - Stratégie: strategie.md
+      - Succès: succes.md
+      - Sud: sud.md
+      - Surpâturage: surpaturage.md
+      - Système climatique: systeme-climatique.md
+      - Système de haute pression: systeme-haute-pression.md
+      - Système frontal: systeme-frontal.md
+      - Système nuageux: systeme-nuageux.md
     - T:
-      - Température: termes/temperature.md
+      - Tarissement précoce: tarissement-precoce.md
+      - Taux: taux.md
+      - Taux de précipitation: taux-de-precipitation.md
+      - Taux d'humidité: taux-dhumidite.md
+      - Tectonique: tectonique.md
+      - Température: temperature.md
+      - Température de surface: temperature-de-surface.md
+      - Température maximale: temperature-maximale.md
+      - Température minimale: temperature-minimale.md
+      - Température moyenne: temperature-moyenne.md
+      - Température ressentie: temperature-ressentie.md
+      - Températures extrêmes: temperatures-extremes.md
+      - Tempête: tempete.md
+      - Tempête de neige: tempete-de-neige.md
+      - Tempête de verglas: tempete-de-verglas.md
+      - Tendance déficitaire: tendance-deficitaire.md
+      - Tendance excédentaire: tendance-excedentaire.md
+      - Tendance normale: tendance-normale.md
+      - Tercile: tercile.md
+      - Termes: termes.md
+      - Termites: termites.md
+      - Termitières: termitieres.md
+      - Terre: terre.md
+      - Terres humides: terres-humides.md
+      - Territoire: territoire.md
+      - Thermomètre: thermometre.md
+      - Tonnerre: tonnerre.md
+      - Tornade: tornade.md
+      - Total: total.md
+      - Tourbillon: tourbillon.md
+      - Traces de pluies: traces-de-pluies.md
+      - Traitement: traitement.md
+      - Transformation: transformation.md
+      - Tremblements de terre: tremblements-de-terre.md
+      - Très: tres.md
+      - Tropical: tropical.md
+      - Tropiques: tropiques.md
+      - Troupeaux: troupeaux.md
+      - Tsunami: tsunami.md
+    - U:
+      - Usages: usages.md
+      - Uv (ultraviolets): uv-ultraviolets.md
     - V:
-      - Vent: termes/vent.md
+      - Vagues: vagues.md
+      - Vagues de chaleur: vagues-de-chaleur.md
+      - Vagues de froid: vagues-de-froid.md
+      - Vallées: vallees.md
+      - Vannes: vannes.md
+      - Vapeur: vapeur.md
+      - Variabilité climatique: variabilite-climatique.md
+      - Variation: variation.md
+      - Variété à cycle court: variete-a-cycle-court.md
+      - Variété à cycle long: variete-a-cycle-long.md
+      - Variété à cycle moyen: variete-a-cycle-moyen.md
+      - Variété végétale: variete-vegetale.md
+      - Végétale: vegetale.md
+      - Végétation: vegetation.md
+      - Vendredi: vendredi.md
+      - Vent: vent.md
+      - Vent chaud: vent-chaud.md
+      - Vent d'altitude: vent-daltitude.md
+      - Vent de foehn: vent-de-foehn.md
+      - Vent de terre: vent-de-terre.md
+      - Vent d'est: vent-dest.md
+      - Vent du nord: vent-du-nord.md
+      - Vent du sud: vent-du-sud.md
+      - Vent froid: vent-froid.md
+      - Vent marin: vent-marin.md
+      - Vent tempéré: vent-tempere.md
+      - Verdure: verdure.md
+      - Vigilance: vigilance.md
+      - Visibilité: visibilite.md
+      - Visible: visible.md
+      - Vitesse: vitesse.md
+      - Voisinage: voisinage.md
+      - Volcans: volcans.md
+      - Vortex: vortex.md
+    - Z:
+      - Zaï: zai.md
+      - Zénithal: zenithal.md
+      - Zone: zone.md
+      - Zone vulnérable: zone-vulnerable.md
+      - Zone de turbulence: zone-de-turbulence.md
+      - Zone de basse altitude: zone-de-basse-altitude.md
+      - Zone de convergence: zone-de-convergence.md
+      - Zone de haute altitude: zone-de-haute-altitude.md
 # Informations supplémentaires
 extra:
   social:
@@ -90,4 +687,4 @@ extra:
       link: https://github.com
   
 # Copyright
-copyright: Copyright &copy; 2024 SODEXAM - Côte d'Ivoire
+copyright: Copyright &copy; 2025 SODEXAM - Côte d'Ivoire

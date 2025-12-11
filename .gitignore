@@ -1,18 +1,27 @@
 # Lexique Météorologique Multilingue
 
-# Environnements virtuels
-venv/
-.venv/
+# ==== SCRIPTS PYTHON (TOUS IGNORÉS) ====
+*.py
+*.pyc
+*.pyo
+*.pyd
 __pycache__/
 *.py[cod]
 *$py.class
+*.so
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+ENV/
+*.egg-info/
 
 # Sites générés
 site/
-*.egg-info/
 
 # Fichiers audio générés (optionnel - peut être commité)
-docs/audio/
+# docs/audio/
 
 # Logs
 *.log
@@ -36,3 +45,16 @@ Thumbs.db
 # Environnement
 .env
 .env.local
+
+# Fichiers Word/Excel temporaires
+~$*.docx
+~$*.xlsx
+*.tmp
+
+# Fichiers de backup
+*.bak
+*.backup
+*~
+
+# PDF - AUTORISÉS (seront suivis par Git)
+# *.pdf  ← Ligne commentée = PDF suivis
