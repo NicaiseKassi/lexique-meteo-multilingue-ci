@@ -56,5 +56,36 @@ Thumbs.db
 *.backup
 *~
 
+# Fichiers de travail temporaires
+*.json
+*.txt
+!QUICK_START.txt
+!RESUME_CONFIG.txt
+Bandes.png
+Capture*.png
+IMAGE*.jpg
+animate.gif
+fond.png
+tessst*.png
+bulk_convert.sh
+baoule_analysis.txt
+problemes_ef.txt
+
+# Fichiers markdown temporaires
+BOUTONS_RETOUR_CORRIGES.md
+LEXIQUE-METEO-CI.md
+PROBLEMES_RESOLUS.md
+PROJET_FINALISE_COMPLET.md
+STATUT_FINAL.md
+UNIFORMISATION_TERMINEE.md
+
+# Fichiers HTML temporaires
+Lexique*.html
+
+# Fichiers DOCS temporaires
+DOCS/*_OK.docx
+DOCS/*_OK.pdf
+DOCS/*OKOK.docx
+
 # PDF - AUTORISÉS (seront suivis par Git)
 # *.pdf  ← Ligne commentée = PDF suivis
