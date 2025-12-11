@@ -260,38 +260,29 @@ Nous accueillons les contributions ! Voici comment participer :
 
 ### 🙏 Remerciements
 
-- **Équipe SODEXAM** - Expertise météorologique
+- **Équipe SODEXAM** - Experts agro-météorologues et climatologues
 - **Linguistes ivoiriens** - Validation des traductions
 - **Communautés locales** - Contribution linguistique
 - **PNUE** - Soutien institutionnel
 - **Union Européenne** - Financement
 
-### 🏅 Prix et mentions
-
-- **Innovation climatique 2024** - PNUE Afrique
-- **Meilleur projet de préservation linguistique** - Union Africaine
-- **Excellence en communication météorologique** - OMM
-
-## 📄 Licence
+## 📄 Licence et propriété intellectuelle
 
 <div align="center">
 
-**Creative Commons Attribution-ShareAlike 4.0 International**
-
-[![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+**© SODEXAM - Tous droits réservés**
 
 </div>
 
-Ce projet est sous licence **CC BY-SA 4.0**. Vous êtes libre de :
+Ce projet est la **propriété exclusive de la SODEXAM** (Société d'Exploitation et de Développement Aéroportuaire, Aéronautique et Météorologique).
 
-- ✅ **Partager** - Copier et redistribuer
-- ✅ **Adapter** - Remixer, transformer et construire
-- ✅ **Usage commercial** - Utilisation commerciale autorisée
+**Restrictions d'utilisation** :
+- 🚫 **Pas de duplication** - Reproduction interdite sans autorisation
+- 🚫 **Usage non commercial uniquement** - Toute utilisation commerciale est strictement interdite
+- 📝 **Attribution obligatoire** - Toute utilisation autorisée doit créditer la SODEXAM
+- ⚖️ **Tous droits réservés** - Toute utilisation nécessite l'autorisation écrite de la SODEXAM
 
-**Conditions** :
-- 📝 **Attribution** - Créditer les auteurs
-- 🔄 **ShareAlike** - Distribuer sous la même licence
-- 🚫 **Pas de restrictions supplémentaires**
+**Pour toute demande d'utilisation** : contact@sodexam.ci
 
 ---
 
