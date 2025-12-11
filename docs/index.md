@@ -209,27 +209,28 @@ Nous valorisons vos retours pour améliorer continuellement ce lexique !
 - Suggérer des améliorations
 - Partager vos retours d'utilisation
 
-## 📜 Licence et utilisation
+## 📄 Licence et propriété intellectuelle
 
-<div class="success-message">
-Ce lexique est mis à disposition sous licence <strong>Creative Commons CC BY-SA 4.0</strong>. 
-Vous êtes libre de le partager, l'adapter et l'utiliser, même commercialement, 
-à condition de créditer les auteurs et de partager vos améliorations sous la même licence.
+<div class="warning-message" style="background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 1em; margin: 1em 0;">
+<strong>© SODEXAM - Tous droits réservés</strong><br><br>
+Ce projet est la <strong>propriété exclusive de la SODEXAM</strong> (Société d'Exploitation et de Développement Aéroportuaire, Aéronautique et Météorologique).
 </div>
 
 ### ✅ Vous pouvez
 
 - Consulter et utiliser gratuitement
-- Télécharger et distribuer
-- Adapter et traduire
-- Intégrer dans vos projets éducatifs
+- Intégrer dans vos projets éducatifs à but non commercial
 
-### ⚠️ Conditions
+### 🚫 Restrictions d'utilisation
 
-- Créditer la SODEXAM et le PNUE
-- Mentionner la licence CC BY-SA 4.0
-- Partager vos améliorations sous la même licence
-- Respecter les droits des communautés linguistiques
+- **Pas de duplication** - Reproduction interdite sans autorisation
+- **Usage non commercial uniquement** - Toute utilisation commerciale est strictement interdite
+- **Attribution obligatoire** - Toute utilisation autorisée doit créditer la SODEXAM
+- **Tous droits réservés** - Toute utilisation nécessite l'autorisation écrite de la SODEXAM
+
+### 🤝 Contributions
+
+Pour toute contribution ou amélioration, veuillez contacter : **contact@sodexam.ci**
 
 ---
 
